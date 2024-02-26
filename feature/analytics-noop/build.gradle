@@ -1,0 +1,14 @@
+plugins {
+  id 'quran.android.library'
+  alias libs.plugins.anvil
+}
+
+anvil { generateDaggerFactories = true }
+
+dependencies {
+  implementation project(":common:analytics")
+  implementation libs.androidx.annotation
+
+  // dagger
+  implementation libs.dagger.runtime
+}

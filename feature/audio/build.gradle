@@ -1,0 +1,36 @@
+plugins {
+  id 'quran.android.library.android'
+  alias libs.plugins.ksp
+}
+
+android {
+  namespace 'com.quran.labs.androidquran.feature.audio'
+
+  buildTypes {
+     beta {
+       consumerProguardFiles 'proguard.cfg'
+       matchingFallbacks = ['debug']
+     }
+
+     release {
+       consumerProguardFiles 'proguard.cfg'
+     }
+  }
+}
+
+dependencies {
+  implementation project(path: ':common:audio')
+
+  implementation libs.kotlinx.coroutines.core
+  implementation libs.kotlinx.coroutines.android
+
+  implementation libs.okio
+
+  implementation libs.moshi
+  ksp(libs.moshi.codegen)
+
+  implementation libs.retrofit
+
+  testImplementation libs.junit
+  testImplementation libs.truth
+}

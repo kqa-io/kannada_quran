@@ -1,0 +1,13 @@
+plugins {
+  id 'quran.android.library'
+  alias libs.plugins.anvil
+}
+
+anvil { generateDaggerFactories = true }
+
+dependencies {
+  implementation libs.dagger.runtime
+
+  implementation libs.dnsjava
+  implementation libs.okhttp.dnsoverhttps
+}
