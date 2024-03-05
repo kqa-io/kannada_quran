@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">ಪವಿತ್ರ ಕುರ್ ಆನ್</string>
+  <string name="downloadPrompt_title">ಅರಬಿ ಪುಟಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಿರಾ?</string>
+  <string name="downloadPrompt">ನೀವು ಈಗ ಕುರ್ ಆನಿನ ಮೂಲ ಅರಬಿ ಪುಟಗಳನ್ನು ಡೌನ್ ಲೋಡ್ ಮಾಡಬೇಕಾಗಿದೆ.
+ಇಲ್ಲದಿದ್ದರೆ, ನಿಮಗೆ ಅರಬಿ ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಲಾಗುವುದಿಲ್ಲ. ನೀವು ಈಗ ಡೌನ್ ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?
+    </string>
+  <string name="downloadTabletPrompt">ನಾವು ಇತ್ತೀಚೆಗೆ ಟ್ಯಾಬ್ಲೆಟ್ ಗಾಗಿ ಸುಧಾರಿತ ಅರಬಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿದ್ದೇವೆ. ನೀವು ಈಗ ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+  <string name="downloadImportantPrompt">ಕುರ್ ಆನಿನ ಸೂಕ್ತಿಗಳನ್ನು ಶೇರ್ ಮಾಡಲು ಒಂದು ಸಣ್ಣ ಅಪ್ಡೇಟ್  ಮಾಡಬೇಕಾಗಿದೆ. ನೀವು ಈಗ ಅಪ್ಡೇಟ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+  <string name="downloadPrompt_ok">ಹೌದು</string>
+  <string name="downloadPrompt_no">ಇಲ್ಲ</string>
+  <string name="downloading_title">ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ&#8230;</string>
+  <string name="downloading_message">ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವವರೆಗೆ ನಿರೀಕ್ಷಿಸಿ(resume supported).</string>
+  <string name="extracting_title">ಸಂಸ್ಕರಿಸಲಾಗುತ್ತಿದೆ&#8230;</string>
+  <string name="menu_about">ಪವಿತ್ರ ಕುರ್ ಆನ್  ಬಗ್ಗೆ</string>
+  <string name="menu_other_apps">Other apps</string>
+  <string name="menu_settings">ಸೆಟ್ಟಿಂಗ್</string>
+  <string name="menu_jump_last_page">ಕೊನೆಯ ಪುಟ</string>
+  <string name="menu_bookmarks">ಗುರುತು</string>
+  <string name="menu_bookmarks_page">ಪುಟ ಗುರುತು</string>
+  <string name="menu_bookmarks_ayah">ಸೂಕ್ತಿ ಗುರುತು</string>
+  <string name="menu_sort">ವ್ಯವಸ್ಥಿತವಾಗಿ ಜೋಡಿಸು</string>
+  <string name="menu_sort_date">ದಿನಾಂಕ ಆಧಾರಿತ</string>
+  <string name="menu_sort_location">ಪುಟ ಆಧಾರಿತ</string>
+  <string name="menu_sort_group_by_tags">ಟ್ಯಾಗ್ ಆಧಾರಿತ</string>
+  <string name="menu_show_recents" translatable="false">@string/recent_pages</string>
+  <string name="menu_show_date">ದಿನಾಂಕವನ್ನು ತೋರಿಸಿ</string>
+  <string name="menu_translation">ಅನುವಾದವನ್ನು ತೋರಿಸಿ</string>
+  <string name="menu_back_to_page">ಕುರ್ ಆನ್ ತೋರಿಸಿ</string>
+  <string name="menu_help">ಸಹಾಯ</string>
+  <string name="menu_search">ಹುಡುಕಿ</string>
+  <string name="menu_get_translations">ಅನುವಾದಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="menu_jump">@string/gotoPage</string>
+  <string name="gotoPage">ಪುಟಕ್ಕೆ ಹೋಗಿ</string>
+  <string name="please_wait">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ…</string>
+
+  <!-- about -->
+  <string name="about_description">
+    ಪವಿತ್ರ ಕುರ್ ಆನ್,ಇದು ಆಂಡ್ರಾಯ್ಡ್ ಸ್ಮಾರ್ಟ್ ಫೋನ್ ಗಳಿಗಾಗಿರುವ ಉಚಿತ ಕನ್ನಡ ಕುರ್ ಆನ್ ಆಪ್ಲಿಕೇಷನ್ ಆಗಿದೆ. &lt;br/>&lt;br/> ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಓಪನ್ ಸೋರ್ಸ್ ಆಂಡ್ರಾಯ್ಡ್ ಪ್ರಾಜೆಕ್ಟ್    &lt;a href="https://quran.com/"> QURAN.COM &lt;/a> ನಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ.ಅಲ್ಲಾಹು ಅವರಿಗೆ  ಶ್ರೇಷ್ಟವಾದದ್ದನ್ನು ದಯಪಾಲಿಸಲಿ. &lt;br/>&lt;br/>
+    ಕನ್ನಡ ಅರ್ಥಾನುವಾದವನ್ನು ಮುಹಮ್ಮದ್ ಹಂಝಾ ಪುತ್ತೂರು ರವರು ಭಾಷಾಂತರಿಸಿದ, ಉಮರ್ ಇಬ್ನ್ ಅಹ್ಮದ್ ಮದನಿ , ಅಹ್ಮದ್ ಎಸ್ ಎಮ್ ಮತ್ತು ಅಬೂಬಕರ್ ನಝೀರ್ ಸಲಫಿಯವರು ಪರಿಶೀಲಿಸಿದ  &lt;b>ಆದರಣೀಯ ಖುರ್ ಆನ್ ಹಾಗೂ ಅದರ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> &lt;i>ಪ್ರಕಾಶಕರು :ಅಲ್  ಮಲಿಕ್  ಫಹದ್ ಪವಿತ್ರ  ಖುರ್ ಆನ್  ಪ್ರಿಂಟಿಂಗ್ ಕಾಂಪ್ಲೆಕ್ಸ್ &lt;i/> &lt;/b> &lt;br/>&lt;br/>  &lt;b> ಪವಿತ್ರ ಕುರ್ ಆನ್, ಸಂಪೂರ್ಣ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> ಪ್ರಕಾಶಕರು :ಸಲಫಿ ಪಬ್ಲಿಷಿಂಗ್ ಹೌಸ್ ಮಂಗಳೂರು&lt;/b> &lt;br/> ನಿಂದ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.&lt;br/>
+  </string>
+
+  <string name="about_data_sources">ಡೇಟಾ ಮೂಲಗಳು</string>
+  <string name="about_images">ಕುರ್ ಆನ್ ಮೂಲ ಅರಬಿ ಪುಟಗಳು</string>
+  <string name="about_madani_images">ಕುರ್ ಆನ್ ಚಿತ್ರಗಳು ಕಿಂಗ್ ಫಹದ್ ಕುರ್ ಆನ್ ಪ್ರಿಂಟಿಂಗ್ ಕಾಂಪ್ಲೆಕ್ಸ್‌ನ ಫಾಂಟ್‌ಗಳನ್ನು ಆಧರಿಸಿವೆ</string>
+  <string name="about_madani_images_url" translatable="false">https://github.com/quran/quran.com-images</string>
+  <string name="about_naskh_images">The Quran images for the Naskh app are taken (with permission) from SHL Info Systems</string>
+  <string name="about_naskh_images_url" translatable="false">http://www.shlinfosystems.com</string>
+  <string name="about_qaloon_images">Qaloon images are used with the permission of Nous Memes Editions Et Diffusion (Tunisia)</string>
+  <string name="about_quranicaudio" translatable="false">ಕುರ್ ಆನ್ ಆಡಿಯೋ</string>
+  <string name="about_quranicaudio_summary">ಅಂತರವಿಲ್ಲದ mp3 ಕುರ್ ಆನ್ ಪಠಣಗಳು</string>
+  <string name="about_quranicaudio_url" translatable="false">https://quranicaudio.com</string>
+  <string name="about_quran_ksu">ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಮುಷ್ ಹಫ್ ಯೋಜನೆ</string>
+  <string name="about_quran_ksu_summary">ಕಿಂಗ್ ಸೌದ್ ಯೂನಿವರ್ಸಿಟಿ ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಮುಷ್ ಹಫ್ ಪ್ರಾಜೆಕ್ಟ್ ಅರೇಬಿಕ್ ತಫ್ಸೀರ್.</string>
+  <string name="about_quran_ksu_url" translatable="false">https://quran.ksu.edu.sa</string>
+  <string name="about_furqan" translatable="false">ಅಲ್-ಬಾಹಿತ್ ಅಲ್-ಕುರಾನಿ (tafsir.app)</string>
+  <string name="about_furqan_summary">ಉತ್ ಮಾನ್ ಪಠ್ಯ</string>
+  <string name="about_furqan_url" translatable="false">https://tafsir.app</string>
+  <string name="about_quran_enc" translatable="false">ಪವಿತ್ರ ಕುರ್ ಆನ್ ಎನ್ಸೈಕ್ಲೋಪೀಡಿಯಾ (QuranEnc)</string>
+  <string name="about_quran_enc_summary">ಅನೇಕ ಭಾಷೆಗಳ ಅನುವಾದಗಳು</string>
+  <string name="about_quran_enc_url" translatable="false">https://quranenc.com</string>
+  <string name="about_tanzil" translatable="false">Tanzil</string>
+  <string name="about_tanzil_summary">Translations for a few languages</string>
+  <string name="about_tanzil_url" translatable="false">http://tanzil.net</string>
+  <string name="about_noorhidayat" translatable="false">Noorhidayat</string>
+  <string name="about_noorhidayat_summary">Noorehira font and Mufti Taqi Translation</string>
+  <string name="about_noorhidayat_url" translatable="false">http://www.noorehidayat.org</string>
+  <string name="about_open_source">Open Source Projects</string>
+  <string name="about_androidx" translatable="false">AndroidX</string>
+  <string name="about_androidx_url" translatable="false">https://developer.android.com/jetpack/androidx</string>
+  <string name="about_dagger2" translatable="false">Dagger 2</string>
+  <string name="about_dagger2_url" translatable="false">https://google.github.io/dagger</string>
+  <string name="about_dnsjava" translatable="false">dnsjava</string>
+  <string name="about_dnsjava_url" translatable="false">http://dnsjava.org</string>
+  <string name="about_material_components" translatable="false">Material Components for Android</string>
+  <string name="about_material_components_url" translatable="false">https://github.com/material-components/material-components-android</string>
+  <string name="about_timber" translatable="false">Timber</string>
+  <string name="about_timber_url" translatable="false">https://github.com/JakeWharton/timber</string>
+  <string name="about_kotlin" translatable="false">Kotlin</string>
+  <string name="about_kotlin_url" translatable="false">https://kotlinlang.org</string>
+  <string name="about_numberPicker" translatable="false">Number Picker</string>
+  <string name="about_numberPicker_url" translatable="false">https://github.com/ShawnLin013/NumberPicker</string>
+  <string name="about_okhttp" translatable="false">OkHttp</string>
+  <string name="about_okhttp_url" translatable="false">https://github.com/square/okhttp</string>
+  <string name="about_rxjava" translatable="false">RxJava</string>
+  <string name="about_rxjava_url" translatable="false">https://github.com/ReactiveX/RxJava</string>
+  <string name="about_rxandroid" translatable="false">RxAndroid</string>
+  <string name="about_rxandroid_url" translatable="false">https://github.com/ReactiveX/RxAndroid</string>
+  <string name="about_moshi" translatable="false">Moshi</string>
+  <string name="about_moshi_url" translatable="false">https://github.com/square/moshi</string>
+  <string name="about_sliding_panel" translatable="false">AndroidSlidingUpPanel</string>
+  <string name="about_sliding_panel_url" translatable="false">https://github.com/umano/AndroidSlidingUpPanel</string>
+  <string name="about_others">ಇತರರು</string>
+  <string name="about_contributors">ಕೊಡುಗೆದಾರರು</string>
+  <string name="about_contributors_summary">ಪವಿತ್ರ ಕುರ್ ಆನ್ ಅಪ್ಲಿಕೇಶನ್  ಅಭಿವೃದ್ಧಿಗೆ ಕೊಡುಗೆ ನೀಡಿದ ಜನರ ಪಟ್ಟಿ</string>
+  <string name="about_contributors_url" translatable="false">https://github.com/quran/quran_android/blob/main/CONTRIBUTORS.md</string>
+
+  <!-- help -->
+  <string name="help_title">Frequently Asked Questions</string>
+  <string name="help">
+        &lt;b>ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡುವುದು ಹೇಗೆ?&lt;/b>
+        &lt;br/>ಯಾವುದೇ ಕುರಾನ್ ಪುಟವನ್ನು ತೆರೆಯಿರಿ. ಪರದೆಯ ಮೇಲೆ ಒಮ್ಮೆ ಟ್ಯಾಪ್ ಮಾಡಿ. ಕೆಳಭಾಗದಲ್ಲಿ, ನೀವು ಪ್ಲೇ ಬಟನ್ ಮತ್ತು ಕ್ವಾರಿ ಹೆಸರಿನ ಕೆಲವು ಪಠ್ಯವನ್ನು ಗಮನಿಸಬಹುದು.
+
+  ಬೇರೆ ಖಾರಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ವಾರಿಯ ಹೆಸರನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ಪ್ರಸ್ತುತ ಪುಟ ಅಥವಾ ಸೂರಾವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಮತ್ತು ಪ್ಲೇ ಮಾಡಲು ಪ್ಲೇ ಕ್ಲಿಕ್ ಮಾಡಿ.
+        &lt;br/>
+        &lt;br/>&lt;b>ಅನುವಾದವನ್ನು ಹೇಗೆ ನೋಡಬಹುದು?&lt;/b>
+        &lt;br/>ಯಾವುದೇ ಕುರಾನ್ ಪುಟವನ್ನು ತೆರೆಯಿರಿ. ಪರದೆಯ ಮೇಲೆ ಒಮ್ಮೆ ಟ್ಯಾಪ್ ಮಾಡಿ. ಮೇಲ್ಭಾಗದಲ್ಲಿ, ನೀವು ಗ್ಲೋಬ್ ಐಕಾನ್ ಅನ್ನು ಗಮನಿಸಬಹುದು (ಅಥವಾ, ನೀವು ಅದನ್ನು ನೋಡದಿದ್ದರೆ, ಮೂರು ಚದರ ಚುಕ್ಕೆಗಳನ್ನು ಹೊಂದಿರುವ ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ) - ಇದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಅನುವಾದವನ್ನು ವೀಕ್ಷಿಸಲು ಅನುವಾದವನ್ನು ಆಯ್ಕೆಮಾಡಿ.
+        &lt;br/>
+        ನೀವು ಯಾವುದೇ ಅನುವಾದಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡದಿದ್ದರೆ, ನೀವು ಅನುವಾದಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದಾದ ಪರದೆಯೊಂದಕ್ಕೆ ಅದು ನಿಮ್ಮನ್ನು ಕರೆದೊಯ್ಯುತ್ತದೆ. ಅನುವಾದವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ನಂತರ ಹಿಂತಿರುಗಿ ಮತ್ತು ಅನುವಾದವನ್ನು ವೀಕ್ಷಿಸಲು ಗ್ಲೋಬ್ ಐಕಾನ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಟ್ಯಾಪ್ ಮಾಡಿ.
+        &lt;br/>
+        &lt;br/>&lt;b>ನಾನು ಪುಟವನ್ನು ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡುವುದು ಹೇಗೆ ?&lt;/b>
+        &lt;br/>ಯಾವುದೇ ಕುರಾನ್ ಪುಟವನ್ನು ತೆರೆಯಿರಿ. ಪರದೆಯ ಮೇಲೆ ಒಮ್ಮೆ ಟ್ಯಾಪ್ ಮಾಡಿ. ಮೇಲಿನ ಬಲಭಾಗದಲ್ಲಿ, ನೀವು ಗುರುತು ಐಕಾನ್ ಅನ್ನು ನೋಡುತ್ತೀರಿ. ಪುಟವನ್ನು ಗುರುತು ಮಾಡಲು ಗುರುತು ಐಕಾನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಬಣ್ಣವು ಘನ ಬಿಳಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ). ಗುರುತು ಅನ್ನು ತೆಗೆದುಹಾಕಲು ಗುರುತು ಐಕಾನ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಟ್ಯಾಪ್ ಮಾಡಿ..
+        &lt;br/>
+        &lt;br/>&lt;b>ಪಠ್ಯವನ್ನು ದೊಡ್ಡದಾಗಿ ಮಾಡುವುದು ಹೇಗೆ?&lt;/b>
+        &lt;br/>ಅರೇಬಿಕ್ ಪುಟಗಳಿಗಾಗಿ, ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್‌ನಲ್ಲಿ ಹಿಡಿದುಕೊಳ್ಳಿ. ಇದು ಪಠ್ಯವನ್ನು ದೊಡ್ಡದಾಗಿ ಮಾಡುತ್ತದೆ. ಅನುವಾದಗಳಿಗಾಗಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ ಮತ್ತು ಅನುವಾದ ಪಠ್ಯದ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ.
+        &lt;br/>
+        &lt;br/>&lt;b>ನಾನು ಆಯತನ್ನು ಹೇಗೆ ಹಂಚಿಕೊಳ್ಳಲಿ?&lt;/b>
+        &lt;br/>ಆಯತನ್ನು ಗುರುತು ಮಾಡಲು, ಟ್ಯಾಗ್ ಮಾಡಲು, ಹಂಚಿಕೊಳ್ಳಲು ,ಕಾಪಿ ಮಾಡಲು , ಅನುವಾದವನ್ನು ನೋಡಲು ಅಥವಾ ಅದರ ಪಠಣವನ್ನು ಆಲಿಸಲು, ಆಯತನ್ನು ಒತ್ತಿ ಹಿಡಿದುಕೊಂಡು ಆಯ್ಕೆ ಮಾಡಬಹುದು .&lt;br/>
+        &lt;br/>&lt;b>Kannada fonts don\'t work!&lt;/b>
+        &lt;br/>Unfortunately, Android versions prior to 4.0 do not support these fonts, and there is
+        little we can do to help with this.
+    </string>
+  <string name="search_hint">ಹುಡುಕಿ...</string>
+  <string name="quranSearchType">ಸೂಕ್ತಿ ಹುಡುಕಿ...</string>
+  <string name="search_full_results">ಪೂರ್ಣ ಫಲಿತಾಂಶಗಳು</string>
+  <string name="search_entire_mushaf">ಸಂಪೂರ್ಣ ಕುರ್ ಆನ್ ಅನ್ನು ಹುಡುಕಿ</string>
+
+  <!-- Shown above search results when we receive a search request. -->
+  <plurals name="search_results">
+    <item quantity="one">ಒಂದು ಸೂಕ್ತಿಯಲ್ಲಿ ಸಿಕ್ಕಿತು \"%1$s\": </item>
+    <item quantity="other">%2$d ಸಿಕ್ಕಿದ ಸೂಕ್ತಿಗಳು \"%1$s\": </item>
+  </plurals>
+
+  <!-- m permissions stuff -->
+  <string name="storage_permission_rationale"> ಕುರ್ ಆನ್ ಅಪ್ಲಿಕೇಶನ್  ತನ್ನ ಡೇಟಾವನ್ನು ಮೆಮೊರಿ ಕಾರ್ಡ್ ನಲ್ಲಿ  ಸಂಗ್ರಹಿಸಲು ನಿಮ್ಮ ಅನುಮತಿಯನ್ನು ಬಯಸುತ್ತದೆ. ಈ ಅನುಮತಿಯಿಲ್ಲದೆಯೂ   ಕುರ್ ಆನ್ ಅಪ್ಲಿಕೇಶನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಆದರೆ ನೀವು ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿದರೆ ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದರೆ, ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಪುಟಗಳು, ಆಡಿಯೋ ಮತ್ತು ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ನೀವು  ಅನುಮತಿ ನೀಡಲು ಬಯಸುವಿರಾ ?</string>
+  <string name="storage_permission_please_restart">ಇದು ಕಾರ್ಯರೂಪಕ್ಕೆ ತರಲು ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.</string>
+
+  <!-- Search messages -->
+  <string name="found_in_sura">ಸಿಕ್ಕಿದ ಅಧ್ಯಾಯ %1$s: %2$d (ಪುಟ %3$d)</string>
+  <string name="no_results">ಯಾವ ಸೂಕ್ತಿಯಲ್ಲೂ ಸಿಕ್ಕಿಲ್ಲ \"%s\"</string>
+  <string name="no_arabic_search_available">ನೀವು ಅರೇಬಿಕ್ ಹುಡುಕಾಟ ಪ್ಯಾಕ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಹುಡುಕಾಟವನ್ನು ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="get_arabic_search_db">ಅರೇಬಿಕ್ ಹುಡುಕಾಟ ಡೇಟಾಬೇಸ್ ಪಡೆಯಿರಿ</string>
+
+  <!-- Quran Preference Activity -->
+  <string name="prefs_volume_key_navigation_title">ವಾಲ್ಯೂಮ್ ಕೀ ನ್ಯಾವಿಗೇಷನ್</string>
+  <string name="prefs_volume_key_navigation_summary">ವಾಲ್ಯೂಮ್ ಕೀಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳ ನಡುವೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+  <string name="prefs_category_reading">ಓದುವ ಆದ್ಯತೆಗಳು</string>
+  <string name="prefs_category_translation">ಅನುವಾದ ಆದ್ಯತೆಗಳು</string>
+  <string name="prefs_category_display_settings">ಡಿಸ್ ಪ್ಲೇ  ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+  <string name="prefs_use_arabic_title">ಅರೇಬಿಕ್ ಮೋಡ್ (الوضع العربي)</string>
+  <string name="prefs_use_arabic_summary_on">ಅಪ್ಲಿಕೇಶನಲ್ಲಿ ಅರೇಬಿಕ್ ಬಳಸಿ</string>
+  <string name="prefs_new_background_title">ಹೊಸ ಹಿನ್ನೆಲೆ(background)</string>
+  <string name="prefs_lock_orientation_title">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ದೃಷ್ಟಿಕೋನ(orientation)</string>
+  <string name="prefs_lock_orientation_summary_on">ಸ್ಥಿರ ದೃಷ್ಟಿಕೋನ(orientation) ಮೋಡ್ ಬಳಸಿ</string>
+  <string name="prefs_lock_orientation_summary_off">ಪ್ರಸ್ತುತ ದೃಷ್ಟಿಕೋನ(orientation) ಮೋಡ್‌ಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ</string>
+  <string name="prefs_landscape_orientation_title">ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ದೃಷ್ಟಿಕೋನ</string>
+  <string name="prefs_landscape_orientation_summary_on">ಯಾವಾಗಲೂ ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಮೋಡ್ ಬಳಸಿ</string>
+  <string name="prefs_landscape_orientation_summary_off">ಯಾವಾಗಲೂ ಪೋರ್ಟ್ರೇಟ್ ಮೋಡ್ ಬಳಸಿ</string>
+  <string name="prefs_night_mode_title">ರಾತ್ರಿ ಮೋಡ್</string>
+  <string name="prefs_night_mode_summary">ಡಾರ್ಕ್ ಹಿನ್ನೆಲೆ ಮತ್ತು ಬೆಳಕಿನ ಫಾಂಟ್‌ಗಳನ್ನು ಬಳಸಿ</string>
+  <string name="prefs_night_mode_text_brightness_title">ಪಠ್ಯ ಹೊಳಪು</string>
+  <string name="prefs_night_mode_text_brightness_summary">ರಾತ್ರಿ ಮೋಡ್ ಸಕ್ರಿಯವಾಗಿರುವಾಗ ಪಠ್ಯದ ಹೊಳಪು</string>
+  <string name="prefs_night_mode_background_brightness_title">ಬ್ಯಾಕ್ ಗ್ರೌಂಡ್  ಹೊಳಪು</string>
+  <string name="prefs_night_mode_background_brightness_summary">ರಾತ್ರಿ ಮೋಡ್ ಸಕ್ರಿಯವಾಗಿರುವಾಗ ಪುಟದ ಹೊಳಪು</string>
+  <string name="prefs_overlay_page_info_title">ಪುಟದ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ</string>
+  <string name="prefs_overlay_page_info_summary">ಓದುವಾಗ ಪುಟ ಸಂಖ್ಯೆ, ಸೂರಾ ಹೆಸರು ಮತ್ತು ಜುಝ್ ಸಂಖ್ಯೆಗಳನ್ನು ತೋರಿಸಿ </string>
+  <string name="prefs_display_marker_title">ಮಾರ್ಕರ್ ಪಾಪ್ ಅಪ್ ಪ್ರದರ್ಶಿಸಿ</string>
+  <string name="prefs_display_marker_summary">ಜುಝ್\', ಹಿಝ್ಬ್, ಇತ್ಯಾದಿಗಳನ್ನು ತಲುಪಿದಾಗ ಪಾಪ್ಅಪ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಿ.</string>
+  <string name="prefs_highlight_bookmarks_title">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ</string>
+  <string name="prefs_highlight_bookmarks_summary">ಓದುವಾಗ ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡಿದ ಅಯಾಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ</string>
+  <string name="prefs_translation_text_title">ಫಾಂಟ್ ಗಾತ್ರ(Text size)</string>
+  <string name="prefs_translations">ಅನುವಾದಗಳು</string>
+  <string name="prefs_translations_summary">ಅನುವಾದಗಳ ಡೌನ್‌ಲೋಡ್ ಮತ್ತು ನಿರ್ವಹಣೆ</string>
+  <string name="prefs_ayah_before_translation_title">ಅನುವಾದದ ಮೊದಲು ಆಯತ್ </string>
+  <string name="prefs_ayah_before_translation_summary">ಅನುವಾದದ ಮೇಲೆ ಅರೇಬಿಕ್‌ನಲ್ಲಿ ಆಯತ್ ತೋರಿಸಿ</string>
+  <string name="prefs_use_dyslexic_font_title">ಡಿಸ್ಲೆಕ್ಸಿಯಾ ಸ್ನೇಹಿ ಫಾಂಟ್</string>
+  <string name="prefs_use_dyslexic_font_summary">ಡಿಸ್ಲೆಕ್ಸಿಯಾ ಸ್ನೇಹಿ ಫಾಂಟ್‌ನಲ್ಲಿ ಅನುವಾದಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ</string>
+  <string name="prefs_category_download">ಡೌನ್‌ಲೋಡ್ ಆಯ್ಕೆಗಳು</string>
+  <string name="prefs_streaming_title">ಸ್ಟ್ರೀಮಿಂಗ್</string>
+  <string name="prefs_streaming_summary">ಡೌನ್‌ಲೋಡ್ ಮಾಡುವ ಬದಲು ಆಡಿಯೊವನ್ನು ಸ್ಟ್ರೀಮ್ ಮಾಡಿ</string>
+  <string name="prefs_download_amount_title">ಡೌನ್‌ಲೋಡ್ ಆದ್ಯತೆ</string>
+  <string name="prefs_download_amount_summary">ಅಂತರವಿಲ್ಲದ ಆಡಿಯೊಗಾಗಿ ಡೌನ್‌ಲೋಡ್ ಆದ್ಯತೆ</string>
+  <string name="prefs_audio_manager" translatable="false">@string/audio_manager</string>
+  <string name="prefs_audio_manager_summary">ಕುರಾನ್ ಆಡಿಯೊ ಡೌನ್‌ಲೋಡ್ ಮತ್ತು  ನಿರ್ವಹಣೆ </string>
+  <string name="downloaded_translations">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಅನುವಾದಗಳು</string>
+  <string name="available_translations">ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಲು ಲಭ್ಯವಿರುವ ಅನುವಾದಗಳು </string>
+  <string name="dialog_ok">ಸರಿ</string>
+  <string name="prefs_app_location_title">ಕುರ್ ಆನ್ ಡೇಟಾ ಡೈರೆಕ್ಟರಿ</string>
+  <string name="prefs_app_location_summary">ಕುರ್ ಆನ್ ಫೈಲ್‌ಗಳನ್ನು ಎಲ್ಲಿ ಸಂಗ್ರಹಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಿ</string>
+  <string name="prefs_send_logs_title">ದಾಖಲೆಗಳನ್ನು ಕಳುಹಿಸಿ</string>
+  <string name="prefs_send_logs_summary">ಅಪ್ಲಿಕೇಶನ್ ದಾಖಲೆಗಳನ್ನು ಡೆವಲಪರ್‌ಗೆ  ಕಳುಹಿಸಿ</string>
+  <string name="prefs_sdcard_internal">ಇಂಟರ್ನಲ್  ಮೆಮೊರಿ </string>
+  <string name="prefs_sdcard_external">ಮೆಮೊರಿ ಕಾರ್ಡ್  %1$d</string>
+  <string name="prefs_app_size">ಪ್ರಸ್ತುತ ಡೇಟಾ ಗಾತ್ರ</string>
+  <string name="prefs_calculating_app_size">ಅಪ್ಲಿಕೇಶನ್ ಗಾತ್ರವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+  <string name="prefs_copying_app_files">ಅಪ್ಲಿಕೇಶನ್ ಫೈಲ್‌ಗಳನ್ನು ನಕಲಿಸಲಾಗುತ್ತಿದೆ</string>
+  <string name="prefs_err_moving_app_files">ಅಪ್ಲಿಕೇಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಸರಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+  <string name="prefs_no_enough_space_to_move_files">ಅಪ್ಲಿಕೇಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಸರಿಸಲು ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ</string>
+  <string name="prefs_megabytes_int">%1$d MB</string>
+  <string name="prefs_megabytes_str" translatable="false">@string/download_amount_in_megabytes</string>
+  <string name="prefs_dual_page_mode_title">ಎರಡು ಪುಟ ಮೋಡ್</string>
+  <string name="prefs_dual_page_mode_enabled">ಲ್ಯಾಂಡ್ಸ್ಕೇಪ್ ಮೋಡ್ ನಲ್ಲಿ, ಎರಡು ಪುಟಗಳು ಅಕ್ಕಪಕ್ಕದಲ್ಲಿ ಗೋಚರಿಸುತ್ತವೆ.</string>
+  <string name="prefs_dual_page_mode_disabled">ಲ್ಯಾಂಡ್ಸ್ಕೇಪ್, ಕೇವಲ ಒಂದೇ ಪುಟ ಕಾಣಿಸುತ್ತದೆ.</string>
+  <string name="prefs_category_advanced">ಸುಧಾರಿತ ಆಯ್ಕೆಗಳು</string>
+  <string name="prefs_category_advanced_summary">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಆಮದು/ರಫ್ತು ಮಾಡಿ, ಕುರ್ ಆನ್ ಡೇಟಾ ಡೈರೆಕ್ಟರಿಯನ್ನು ಹೊಂದಿಸಿ, ಇತ್ಯಾದಿ.</string>
+  <string name="prefs_import_title">ಆಮದು ಮಾಡಿ </string>
+  <string name="prefs_import_summary">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಟ್ಯಾಗ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಿ</string>
+  <string name="prefs_export_title">ರಫ್ತು ಮಾಡಿ</string>
+  <string name="prefs_export_summary">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಟ್ಯಾಗ್‌ಗಳ ನಕಲನ್ನು ರಫ್ತು ಮಾಡಿ</string>
+  <string name="prefs_export_csv_title">CSV ಫೈಲ್ ನಲ್ಲಿ  ರಫ್ತು ಮಾಡಿ</string>
+  <string name="prefs_export_csv_summary">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಟ್ಯಾಗ್‌ಗಳ ನಕಲನ್ನು CSV ಫೈಲ್ ನಲ್ಲಿ  ರಫ್ತು ಮಾಡಿ</string>
+  <string name="prefs_page_type_title">ಪುಟದ ಪ್ರಕಾರ (ಪ್ರಾಯೋಗಿಕ)</string>
+  <string name="prefs_page_type_summary">ಓದುವ ಪುಟಗಳ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+  <string name="prefs_sura_translated_name_summary">ಸೂರಾ ಹೆಸರಿನ ಅನುವಾದವನ್ನು ತೋರಿಸಿ</string>
+    <string name="prefs_sura_translated_name_title">ಸೂರಾ ಅನುವಾದಿಸಿದ  ಹೆಸರು</string>
+  <string name="prefs_preview">ಮುನ್ನೋಟ</string>
+
+  <string name="translations" translatable="false">@string/prefs_translations</string>
+  <string name="more_translations">ಇನ್ನಷ್ಟು ಅನುವಾದಗಳು</string>
+  <string name="import_data_permissions_error">ಅನುಮತಿಗಳ ದೋಷದಿಂದಾಗಿ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+  <string name="import_data_error">ಅಮಾನ್ಯ ಬ್ಯಾಕಪ್ ಫೈಲ್ (ಅಥವಾ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ).</string>
+  <string name="import_data">ಡೇಟಾವನ್ನು ಆಮದು ಮಾಡಿ</string>
+  <string name="import_data_and_override">ನೀವು ಈ ಫೈಲ್ ಅನ್ನು ಆಮದು ಮಾಡಿಕೊಂಡರೆ, ಅದು ನಿಮ್ಮ ಎಲ್ಲಾ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು %1$d ಬುಕ್‌ಮಾರ್ಕ್(ಗಳು) ಮತ್ತು %2$d ಟ್ಯಾಗ್(ಗಳು) ನೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ. ಆಮದು ಮಾಡಲು ಬಯಸುವಿರಾ ?</string>
+  <string name="import_successful">ಆಮದು ಯಶಸ್ವಿಯಾಗಿದೆ</string>
+  <string name="export_data_error">ಡೇಟಾವನ್ನು ರಫ್ತು ಮಾಡುವಲ್ಲಿ ದೋಷ ಸಂಭವಿಸಿದೆ</string>
+  <string name="exported_data">%1$s ಗೆ ಡೇಟಾವನ್ನು ರಫ್ತು ಮಾಡಲಾಗಿದೆ</string>
+
+  <string name="move_up">ಮೇಲೆ ಸರಿಸಿ</string>
+  <string name="move_down">ಕೆಳಗೆ ಸರಿಸಿ</string>
+  <string name="delete_translation">ಅನುವಾದವನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+
+  <string name="logs_email" translatable="false">pavitraquran.logs@gmail.com</string>
+  <string name="warning">ಎಚ್ಚರಿಕೆ</string>
+  <string name="kitkat_external_message">ಆಂಡ್ರಾಯ್ಡ್  ಮಿತಿಗಳ ಕಾರಣದಿಂದಾಗಿ, ನಿಮ್ಮ ಬಾಹ್ಯ ಮೆಮೊರಿ  ಕಾರ್ಡ್‌ನಲ್ಲಿ ಕುರಾನ್ ಡೇಟಾವನ್ನು ಇಟ್ಟು ನಂತರ ಅಪ್ಲಿಕೇಶನ್  ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ಅಥವಾ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿದರೆ, ಎಲ್ಲಾ ಪುಟಗಳು ಮತ್ತು ಆಡಿಯೊವನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನೀವು ಅವುಗಳನ್ನು ಮತ್ತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ನೀವು ಖಚಿತವಾಗಿ ಬಾಹ್ಯ ಮೆಮೊರಿ  ಕಾರ್ಡ್ ಅನ್ನು ಬಳಸಲು  ಬಯಸುವಿರಾ?</string>
+  <string name="scoped_storage_message">ಆಂಡ್ರಾಯ್ಡ್ ನ ಭವಿಷ್ಯದ ಆವೃತ್ತಿಗಳಲ್ಲಿ , ಬಳಕೆದಾರರ ಗೌಪ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು,  ಅಪ್ಲಿಕೇಶನ್ ಡೈರೆಕ್ಟರಿಗಳ ಹೊರಗೆ ಇರುವ  ಫೈಲ್‌ಗಳನ್ನು ಪಡೆಯಲು ಅನುಮತಿ ಕೊಡದಿರಬಹುದು . ಆದ್ದರಿಂದ ನೀವು ಖಚಿತವಾಗಿ  ಮೆಮೊರಿ ಕಾರ್ಡ್  ಬಳಸಲು ಬಯಸುವಿರಾ?</string>
+  <string name="please_grant_permissions">ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅನುಮತಿ ನೀಡಿ</string>
+  <!-- Preferences End -->
+
+  <!-- tafaseer -->
+  <string name="more_arabic" translatable="false">المزيد…</string>
+  <string name="see_tafseer_of_verse">ಈ ಸೂಕ್ತಿಯ ತಫ್ಸೀರ್ ಅನ್ನು ಸೂಕ್ತಿ %d ರ ತಫ್ಸೀರ್‌ನೊಂದಿಗೆ ಸೇರಿಸಲಾಗಿದೆ(ವಿಸ್ತರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ).</string>
+
+  <!-- translation updates -->
+  <string name="update_available">ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ</string>
+  <string name="translation_updates_available">ನಿಮ್ಮ ಕೆಲವು ಅನುವಾದಗಳಿಗೆ ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ. ನೀವು ಈಗ ಭಾಷಾಂತರ ಪರದೆಯನ್ನು ಭೇಟಿ ಮಾಡಲು ಬಯಸುವಿರಾ ?</string>
+  <string name="translation_dialog_yes">ಹೌದು</string>
+  <string name="translation_dialog_later">ನಂತರ</string>
+
+  <!-- End Number picker Strings -->
+  <string name="quran_rob3">¼</string>
+  <string name="quran_nos">½</string>
+  <string name="quran_talt_arb3">¾</string>
+  <string name="quran_hizb">ಹಿಝ್ಬ್</string>
+  <string name="quran_juz2">ಜುಝ್\'</string>
+  <string name="quran_page">ಪುಟ</string>
+  <string name="quran_sura">ಅಧ್ಯಾಯ</string>
+  <string name="quran_ayah">ಸೂಕ್ತಿ %1$d</string>
+  <string name="quran_ayah_details">%1$s - ಸೂಕ್ತಿ %2$s, ಜುಝ್\' %3$s</string>
+  <string name="quran_sura_title">ಅಧ್ಯಾಯ %1$s</string>
+  <string name="sura_ayah_notification_str">ಅಧ್ಯಾಯ %1$s, ಸೂಕ್ತಿ %2$d</string>
+  <string name="sura_ayah_sharing_str">ಅಧ್ಯಾಯ %1$s: %2$d</string>
+
+  <string name="index_loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ&#8230;</string>
+
+  <string name="canceling">ರದ್ದು ಆಗುತ್ತಿದೆ&#8230;</string>
+  <string name="juz2_description">ಜುಝ್\' %1$s</string>
+  <string name="manzil_description">ಮಂಝಿಲ್ %1$s</string>
+  <string name="comma" translatable="false">,</string>
+  <string name="page_description">ಪುಟ %1$s, ಜುಝ್\' %2$s</string>
+  <string name="highlighting_database">ಅಗತ್ಯವಿರುವ ಫೈಲ್ ಗಳು</string>
+  <string name="timing_database">ಅಗತ್ಯವಿರುವ ಫೈಲ್ ಗಳು</string>
+  <string name="infinity" translatable="false">&#8734;</string>
+
+  <!-- download statuses and errors -->
+  <string name="sdcard_error">ಮೆಮೊರಿ  ಕಾರ್ಡ್ ಸಿಗುತ್ತಿಲ್ಲ. ಮತ್ತೊಮ್ಮೆ ಹಾಕಲು  ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="download_successful">ಡೌನ್ಲೋಡ್ ಯಶಸ್ವಿಗೊಂಡಿದೆ</string>
+  <string name="download_processing">ಡೌನ್ಲೋಡ್ ಸಂಸ್ಕರಿಸಲಾಗುತ್ತಿದೆ&#8230;</string>
+  <string name="download_error_general">ಡೌನ್ಲೋಡ್ ವಿಫಲಗೊಂಡಿದೆ</string>
+  <string name="download_error_disk">ಡೌನ್ಲೋಡ್ ಗೆ ಸಾಕಷ್ಟು ಡಿಸ್ಕ್ ಜಾಗವಿಲ್ಲ</string>
+  <string name="download_error_network">ಇಂಟರ್ನೆಟ್ ದೋಷದಿಂದಾಗಿ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+  <string name="download_error_perms">ಅನುಮತಿಗಳ ದೋಷದಿಂದಾಗಿ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+  <string name="download_error_invalid_download">ಡೌನ್ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್ ಕೆಟ್ಟುಹೋಗಿದೆ</string>
+  <string name="download_error_invalid_download_retry">ೈಲ್ ಕೆಟ್ಟುಹೋಗಿದೆ,  ಪುನಃ ಡೌನ್ಲೋಡ್ ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇವೆ</string>
+  <string name="download_error_network_retry">ಇಂಟರ್ನೆಟ್  ದೋಷ, ಪುನರಾರಂಭಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇವೆ&#8230;</string>
+  <string name="notification_download_canceled">ಡೌನ್ಲೋಡ್ ರದ್ದುಮಾಡಲಾಗಿದೆ</string>
+  <string name="download_non_wifi_prompt">ನೀವು Wi-Fi ನಲ್ಲಿ ಇಲ್ಲ. ಆದರೂ ಡೌನ್ ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+
+  <!-- downloading dialogs -->
+  <string name="process_progress">ಫೈಲ್ ಸಂಸ್ಕರಿಸಲಾಗುತ್ತಿದೆ %1$d / %2$d</string>
+  <string name="download_retry">ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+  <string name="download_cancel">ರದ್ದುಮಾಡಿ</string>
+  <string name="download_extra_data">ಕುರ್ ಆನಿನ ಸೂಕ್ತಿಗಳನ್ನು ಶೇರ್ ಮಾಡಲು ಒಂದು ಸಣ್ಣ ಅಪ್ಡೇಟ್ ಮಾಡಬೇಕಾಗಿದೆ. ನೀವು ಈಗ ಅಪ್ಡೇಟ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+
+  <!-- post notification dialog -->
+  <string name="post_notification_permission">ಅಧಿಸೂಚನೆಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಲು ಅನುಮತಿ ಕೊಡಲು ಬಯಸುವಿರಾ ? ಡೌನ್‌ಲೋಡ್ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ  ಅಥವಾ ಆಡಿಯೊ ಫೈಲ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಿದಾಗ ಎಚ್ಚರಿಕೆ ನೀಡಲು ಮಾತ್ರ ಇದನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</string>
+
+  <!-- translation database stuff -->
+  <string name="remove_dlg_title">ಅನುವಾದವನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?</string>
+  <string name="remove_dlg_msg">ನೀವು ಖಚಿತವಾಗಿ %1$s ಅನ್ನು ತೆಗೆದುಹಾಕಲು  ಬಯಸುವಿರಾ?</string>
+  <string name="error_getting_translation_list">ಅನುವಾದಗಳ ಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="search_data">ಹುಡುಕಿ...</string>
+  <string name="need_translation">ನೀವು ಇನ್ನೂ ಯಾವುದೇ ಅನುವಾದಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ.</string>
+  <string name="get_translations">ಅನುವಾದಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+
+  <!-- help -->
+  <string name="email_us">ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳನ್ನು  apps@scalosphere.com ಗೆ ಇಮೇಲ್ ಮಾಡಬಹುದು.ನಾವು ಸಾಕಷ್ಟು ಇಮೇಲ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ, ಹಾಗಾಗಿ ಅವೆಲ್ಲಕ್ಕೂ ಪ್ರತ್ಯುತ್ತರ ನೀಡಲು ನಮಗೆ ಸಾಧ್ಯವಾಗದೇ ಇರಬಹುದು.</string>
+
+  <!-- sura metainfo -->
+  <string name="makki">ಮಕ್ಕಾದಲ್ಲಿ</string>
+  <string name="madani">ಮದೀನಾದಲ್ಲಿ</string>
+  <plurals name="verses">
+    <item quantity="one">ಒಂದು ಸೂಕ್ತಿ</item>
+    <item quantity="other">%s ಸೂಕ್ತಿಗಳು</item>
+  </plurals>
+
+  <!-- ayah action panel -->
+  <string name="play_from" translatable="false">@string/from</string>
+  <string name="play_to" translatable="false">@string/to</string>
+  <string name="play_restrict_range">ಮೇಲಿನ ಸೂಕ್ತಿಗಳನ್ನು ಮಾತ್ರ ಪ್ಲೇ ಮಾಡಿ</string>
+  <string name="play_verses_range">ಸೂಕ್ತಿಗಳ ಜೊತೆಯನ್ನು ಪ್ಲೇ ಮಾಡಿ:</string>
+  <string name="play_each_verse">ಪ್ರತಿ ಸೂಕ್ತಿಯನ್ನು  ಪ್ಲೇ ಮಾಡಿ:</string>
+  <string name="play_apply">ಅನ್ವಯಿಸು</string>
+  <string name="play_apply_and_play">ಅನ್ವಯಿಸಿ ಮತ್ತು ಪ್ಲೇ ಮಾಡಿ</string>
+  <string name="previous">ಹಿಂದಿನ</string>
+  <string name="play">ಪ್ಲೇ ಮಾಡಿ</string>
+  <string name="pause">ವಿರಾಮ</string>
+  <string name="stop">ನಿಲ್ಲಿಸು</string>
+  <string name="next">ಮುಂದೆ</string>
+  <string name="playback_speed">ಪ್ಲೇ ವೇಗ:</string>
+
+  <string-array name="repeatValues">
+    <item>1 ಬಾರಿ</item>
+    <item>2 ಬಾರಿ</item>
+    <item>3 ಬಾರಿ</item>
+    <item>ಸುತ್ತು ಹಾಕು</item>
+  </string-array>
+
+  <string name="playback_prompt_title">ನಿಂದ ಪ್ರಾರಂಭಿಸಿ:</string>
+  <string name="starting_page_label">ಪುಟದ ಆರಂಭ</string>
+
+  <!-- long press -->
+  <string name="ayah_copied_popup">ಸೂಕ್ತಿ ನಕಲು ಮಾಡಲಾಗಿದೆ</string>
+
+  <!-- bookmarks & tags contextual action bar -->
+  <string name="tag_bookmark">ಟ್ಯಾಗ್ ಬುಕ್ ಮಾರ್ಕ್</string>
+  <string name="delete_tag">ಟ್ಯಾಗ್ ಅಳಿಸಿ</string>
+  <string name="edit_tag">ಟ್ಯಾಗ್ ತಿದ್ದುಪಡಿ</string>
+  <string name="new_tag">ಹೊಸ ಟ್ಯಾಗ್</string>
+  <string name="not_tagged">ಟ್ಯಾಗ್ ಮಾಡಲಾಗಿಲ್ಲ</string>
+  <plurals name="bookmark_tag_deleted">
+    <item quantity="one">ಒಂದು ವಸ್ತುವನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+    <item quantity="other">%d ವಸ್ತುವನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+  </plurals>
+  <string name="undo">ರದ್ದುಮಾಡು</string>
+
+  <string name="recent_pages">ಇತ್ತೀಚಿನ ಪುಟಗಳು</string>
+  <plurals name="plural_recent_pages" translatable="false">
+    <item quantity="one">@string/menu_jump_last_page</item>
+    <item quantity="other">@string/recent_pages</item>
+  </plurals>
+
+  <!-- tag dialog -->
+  <string name="tag_dlg_title">ಟ್ಯಾಗ್</string>
+  <string name="tag_name">ಹೆಸರು</string>
+  <string name="tag_blank_tag_error">ಟ್ಯಾಗ್ ಹೆಸರುಗಳು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ!</string>
+  <string name="tag_duplicate_tag_error">ಟ್ಯಾಗ್ ಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ!</string>
+
+  <!-- widgets -->
+  <string name="bookmarks_list_empty">ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳಿಲ್ಲ</string>
+
+  <!-- audio updates -->
+  <string name="audio_updated_title">ಕುರಾನ್ ಆಡಿಯೋ ಫೈಲ್‌ಗಳ ನವೀಕರಣ</string>
+  <string name="audio_updated_text">ಹಲವಾರು ಕುರ್ ಆನ್  ಆಡಿಯೊ ಫೈಲ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ. ಹಾಗಾಗಿ ನಿಮ್ಮ
+ಆಡಿಯೋ ಫೈಲ್‌ಗಳನ್ನು ತೆಗೆದು ಹಾಕಲಾಗಿದೆ . ಆದ್ದರಿಂದ ನೀವು ಮುಂದಿನ ಬಾರಿ ಅವುಗಳನ್ನು ಪ್ಲೇ ಮಾಡಿದಾಗ ಹೊಸ ಆವೃತ್ತಿಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.</string>
+
+  <!-- format strings -->
+  <string name="sura_ayah" translatable="false">%1$d:%2$d</string>
+
+  <!-- dual screen prefs -->
+  <string name="prefs_category_dual_screen">ಡ್ಯುಯಲ್ ಮೋಡ್ ಪ್ರಾಶಸ್ತ್ಯಗಳು</string>
+  <string name="prefs_split_page_and_translation_title">ಡ್ಯುಯಲ್ ಮೋಡ್‌ನಲ್ಲಿ ಕುರ್ ಆನ್ ಮತ್ತು ಅನುವಾದ</string>
+  <string name="prefs_split_page_and_translation_summary">ಅನುವಾದಗಳೊಂದಿಗೆ ಡ್ಯುಯಲ್ ಪೇಜ್ ಮೋಡ್‌ನಲ್ಲಿ, ಕುರಾನ್ ಪುಟ ಮತ್ತು ಅನುವಾದವನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ</string>
+
+  <!-- notification channel names [CHAR LIMIT=40] -->
+  <string name="notification_channel_download">ಕುರ್ ಆನ್ ಡೌನ್‌ಲೋಡ್‌ಗಳು</string>
+  <string name="notification_channel_audio">ಕುರ್ ಆನ್ ಪಠಣಗಳು</string>
+
+
+
+  <!--New keys added start-->
+
+  <string name="about_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+  <string name="about_scalosphere" translatable="false">&#169;Scalosphere Computing LLP </string>
+  <string name="about_scalosphere_email" translatable="false">apps@scalosphere.com</string>
+  <string name="about_scalosphere_email_url" translatable="false">mailto:apps@scalosphere.com</string>
+
+  <!--New keys added end-->
+
+  <!--Qari list module start-->
+  <string name="qarilist_select_qari">ಖಾರಿ ಆಯ್ಕೆಮಾಡಿ</string>
+  <string name="qarilist_ready_to_play">ಪ್ಲೇ ಮಾಡಲು ಲಭ್ಯ</string>
+  <string name="qarilist_qaris_with_downloads">ಲಭ್ಯವಿರುವ  ಖಾರಿ</string>
+  <string name="qarilist_gapless">ಅಂತರವಿಲ್ಲದ</string>
+  <string name="qarilist_gapped">ಅಂತರವಿರುವ</string>
+  <string name="qarilist_selected">ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+  <string name="qarilist_dismiss">ವಜಾಗೊಳಿಸಿ</string>
+  <!--Qari list module end-->
+
+  <!--Download manager module start-->
+  <plurals name="audio_manager_files_downloaded">
+    <item quantity="one">1 surah downloaded</item>
+    <item quantity="other">%1$d surahs downloaded</item>
+  </plurals>
+
+  <!-- audio manager -->
+  <string name="audio_manager">ಆಡಿಯೋ ಮ್ಯಾನೇಜರ್</string>
+  <string name="audio_manager_remove_audio_title">ಅಧ್ಯಾಯ ತೆಗೆದುಹಾಕಿ ?</string>
+  <string name="audio_manager_remove_audio_msg">ನೀವು ಖಚಿತವಾಗಿ  %1$s ಅನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?</string>
+  <string name="audio_manager_remove_multiple_audio_msg">ನೀವು ಖಚಿತವಾಗಿ ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?</string>
+  <plurals name="audio_manager_delete_surah_success">
+    <item quantity="one">ಅಧ್ಯಾಯವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ</item>
+    <item quantity="other">%1$d ಅಧ್ಯಾಯಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ</item>
+  </plurals>
+  <plurals name="audio_manager_delete_surah_error">
+    <item quantity="one">ಅಧ್ಯಾಯವನ್ನು ಅಳಿಸುವಾಗ ದೋಷ ಕಂಡುಬಂದಿದೆ</item>
+    <item quantity="other">%1$d ಅಧ್ಯಾಯಗಳನ್ನು ಅಳಿಸುವಾಗ ದೋಷ ಕಂಡುಬಂದಿದೆ</item>
+  </plurals>
+  <string name="audio_manager_surah_download">ಅಧ್ಯಾಯವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+  <string name="audio_manager_surah_delete">ಅಧ್ಯಾಯವನ್ನು ಅಳಿಸಿ</string>
+  <string name="audio_manager_download_all">ಎಲ್ಲವನ್ನೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+  <string name="audio_manager_download_selection">ಆಯ್ಕೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+  <string name="audio_manager_delete_selection">ಆಯ್ಕೆಯನ್ನು ಅಳಿಸಿ</string>
+  <string name="audio_manager_post_notifications_permission_title">ಅಧಿಸೂಚನೆಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಲು ಅನುಮತಿಸುವಿರಾ  ?</string>
+  <string name="audio_manager_post_notifications_permission_description">ಡೌನ್‌ಲೋಡ್ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ  ಅಥವಾ ಆಡಿಯೊ ಫೈಲ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಿದಾಗ ಎಚ್ಚರಿಕೆ ನೀಡಲು ಮಾತ್ರ ಇದನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</string>
+
+  <!-- <string name="downloading_title">Downloading&#8230;</string>-->
+   <string name="download_amount_in_megabytes">%s MB</string>
+   <string name="download_progress">%1$s / %2$s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
+   <string name="download_sura_progress">ಅಧ್ಯಾಯ %3$d ರ  %1$s / %2$s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
+   <string name="download_sura_ayah_progress" tools:ignore="PluralsCandidate">ಅಧ್ಯಾಯ %1$d ಸೂಕ್ತಿ %2$d ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+   <!--Download manager module end-->
+</resources>
