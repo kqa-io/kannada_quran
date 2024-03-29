@@ -48,7 +48,7 @@ public class QuranRowFactory {
         .withSura(quranDisplayData.safelyGetSuraOnPage(page))
         .withPage(page)
         .withDate(timeStamp)
-        .withImageResource(R.drawable.bookmark_currentpage).build();
+        .withImageResource(R.drawable.baseline_bookmark_currentpage_24).build();
   }
 
   public QuranRow fromBookmark(Context context, Bookmark bookmark) {

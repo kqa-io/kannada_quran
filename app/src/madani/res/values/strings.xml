@@ -184,7 +184,7 @@
   <string name="prefs_audio_manager_summary">ಕುರಾನ್ ಆಡಿಯೊ ಡೌನ್‌ಲೋಡ್ ಮತ್ತು  ನಿರ್ವಹಣೆ </string>
   <string name="downloaded_translations">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಅನುವಾದಗಳು</string>
   <string name="available_translations">ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಲು ಲಭ್ಯವಿರುವ ಅನುವಾದಗಳು </string>
-  <string name="dialog_ok">ಸರಿ</string>
+  <string name="dialog_ok">ಓಕೆ</string>
   <string name="prefs_app_location_title">ಕುರ್ ಆನ್ ಡೇಟಾ ಡೈರೆಕ್ಟರಿ</string>
   <string name="prefs_app_location_summary">ಕುರ್ ಆನ್ ಫೈಲ್‌ಗಳನ್ನು ಎಲ್ಲಿ ಸಂಗ್ರಹಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಿ</string>
   <string name="prefs_send_logs_title">ದಾಖಲೆಗಳನ್ನು ಕಳುಹಿಸಿ</string>

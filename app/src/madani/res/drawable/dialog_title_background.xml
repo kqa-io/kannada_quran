@@ -1,0 +1,6 @@
+<!-- dialog_title_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <!-- Set the background color for the title -->
+  <solid android:color="@color/page_background" />
+</shape>

@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Color
 import android.util.AttributeSet
 import android.widget.TextView
+import androidx.core.text.HtmlCompat
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
 import com.quran.labs.androidquran.R
@@ -25,6 +26,15 @@ class QuranHeaderPreference @JvmOverloads constructor(
     if (isEnabled) {
       val tv = holder.findViewById(R.id.title) as? TextView
       tv?.setTextColor(Color.WHITE)
+
+      //KQA start
+
+      val tvSummary = holder.findViewById(android.R.id.summary) as? TextView
+      tvSummary?.text = HtmlCompat.fromHtml(context.getString(R.string.about_description), HtmlCompat.FROM_HTML_MODE_LEGACY)
+
+      //KQA end
+
+
     }
   }
 }

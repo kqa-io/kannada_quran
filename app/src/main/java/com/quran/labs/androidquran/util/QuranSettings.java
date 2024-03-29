@@ -151,7 +151,7 @@ public class QuranSettings {
   }
 
   public boolean getBookmarksGroupedByTags() {
-    return prefs.getBoolean(Constants.PREF_GROUP_BOOKMARKS_BY_TAG, false);
+    return prefs.getBoolean(Constants.PREF_GROUP_BOOKMARKS_BY_TAG, true);
   }
 
   public void setBookmarksGroupedByTags(boolean groupedByTags) {

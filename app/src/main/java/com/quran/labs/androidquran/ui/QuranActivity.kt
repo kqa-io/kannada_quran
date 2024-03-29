@@ -7,9 +7,12 @@ import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.graphics.drawable.BitmapDrawable
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
@@ -18,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.ActionMode
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -70,7 +74,7 @@ import kotlin.math.abs
  *  * [com.quran.labs.androidquran.QuranDataActivity]
  *  * [ShortcutsActivity]
  */
-class QuranActivity : AppCompatActivity(),
+open class QuranActivity : AppCompatActivity(),
     OnBookmarkTagsUpdateListener,
     JumpDestination {
   private var upgradeDialog: AlertDialog? = null
@@ -112,6 +116,29 @@ class QuranActivity : AppCompatActivity(),
     setSupportActionBar(tb)
     val ab = supportActionBar
     ab?.setTitle(R.string.app_name)
+
+// KQA start
+    val logoDrawable = ContextCompat.getDrawable(this, R.drawable.icon)
+
+    if (logoDrawable != null) {
+      // Define the percentage by which to resize the logo
+      val resizePercentage = 0.8f // Resize by 80%, change as needed
+
+      // Get the original dimensions of the logo drawable
+      val originalWidth = logoDrawable.intrinsicWidth
+      val originalHeight = logoDrawable.intrinsicHeight
+
+      // Calculate the new dimensions based on the resize percentage
+      val newWidth = (originalWidth * resizePercentage).toInt()
+      val newHeight = (originalHeight * resizePercentage).toInt()
+
+      // Resize the logo drawable
+      val resizedDrawable = BitmapDrawable(resources, Bitmap.createScaledBitmap((logoDrawable as BitmapDrawable).bitmap, newWidth, newHeight, true))
+
+      // Set the resized logo drawable to the toolbar
+      ab?.setLogo(resizedDrawable)
+    }
+// KQA end
 
     val pager = findViewById<ViewPager>(R.id.index_pager)
     pager.offscreenPageLimit = 3

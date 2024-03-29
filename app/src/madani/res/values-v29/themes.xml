@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Quran" parent="Theme.AppCompat.Light">
+    <item name="colorAccent">@color/accent_color</item>
+    <item name="spinnerStyle">?attr/actionDropDownStyle</item>
+    <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
+    <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
+    <item name="android:forceDarkAllowed">false</item>
+  </style>
+
+  <style name="QuranToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorAccent">@color/accent_color</item>
+    <item name="windowActionModeOverlay">true</item>
+    <item name="spinnerStyle">?attr/actionDropDownStyle</item>
+    <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
+    <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
+    <item name="android:forceDarkAllowed">false</item>
+<!--custom start-->
+    <item name="android:textColor">@color/header_text_color</item>
+    <item name="android:colorBackground">@color/page_background</item>
+    <!-- Customize status bar  color -->
+    <item name="android:statusBarColor">@color/toolbar_background</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <!-- Customize navigation bar color -->
+    <item name="android:navigationBarColor">@color/toolbar_background</item>
+    <item name="android:windowLightNavigationBar">false</item>
+<!--custom end-->
+  </style>
+
+  <style name="QuranDialog" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:forceDarkAllowed">false</item>
+  </style>
+
+<!--custom theme start-->
+  <style name="GotoDialog" parent="Theme.AppCompat.Dialog">
+    <item name="android:background">@color/header_background</item>
+    <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+    <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    <item name="android:textColor">@color/header_text_color</item>
+  </style>
+
+  <!--custom theme end-->
+</resources>

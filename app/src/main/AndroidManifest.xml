@@ -42,10 +42,10 @@
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:theme="@style/QuranToolBar"
         android:exported="true">
-      <intent-filter>
+     <!-- <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
-      </intent-filter>
+      </intent-filter>-->
       <meta-data android:name="android.app.shortcuts"
                  android:resource="@xml/shortcuts" />
     </activity>

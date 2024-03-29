@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:minHeight="?android:attr/listPreferredItemHeight"
-              android:gravity="center_vertical"
-              android:paddingLeft="?android:attr/scrollbarSize"
-              android:paddingRight="?android:attr/scrollbarSize"
-              android:paddingStart="?android:attr/scrollbarSize"
-              android:paddingEnd="?android:attr/scrollbarSize"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingLeft="?android:attr/scrollbarSize"
+    android:paddingRight="?android:attr/scrollbarSize"
+    android:paddingStart="?android:attr/scrollbarSize"
+    android:paddingEnd="?android:attr/scrollbarSize"
     >
 
   <ImageView
@@ -35,9 +35,10 @@
       android:id="@android:id/summary"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="8dp"
+      android:layout_margin="8dp"
       android:gravity="center_horizontal"
-      android:textSize="12sp"
+      android:textSize="16sp"
+      android:autoLink="web"
       />
 
   <!-- Preference should place its actual preference widget here. -->

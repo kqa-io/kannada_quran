@@ -9,15 +9,17 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat"
+        android:background="@color/header_background"
+        app:titleTextColor="@color/header_text_color"
+        app:titleMarginStart="20dp"
         style="@style/ToolBarArea"/>
     <com.quran.labs.androidquran.view.SlidingTabLayout
         android:id="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/sura_details_color"
         style="@style/ToolBarArea"
         />
     <com.quran.labs.androidquran.view.QuranViewPager

@@ -4,9 +4,9 @@
 
 # Quran for Android
 
-[![Build Status](https://github.com/quran/quran_android/actions/workflows/build.yml/badge.svg)](https://github.com/quran/quran_android/actions/workflows/build.yml)
-[![Version](https://img.shields.io/github/v/release/quran/quran_android?include_prereleases&sort=semver)](https://github.com/quran/quran_android/releases/latest)
-[![Github Downloads](https://img.shields.io/github/downloads/quran/quran_android/total?logo=Github)](https://github.com/quran/quran_android/releases)
+[![Build Status](https://github.com/stealthkart/kannada_quran/actions/workflows/build.yml/badge.svg)](https://github.com/quran/quran_android/actions/workflows/build.yml)
+[![Version](https://img.shields.io/github/v/release/stealthkart/kannada_quran?include_prereleases&sort=semver)](https://github.com/quran/quran_android/releases/latest)
+[![Github Downloads](https://img.shields.io/github/downloads/stealthkart/kannada_quran/total?logo=Github)](https://github.com/quran/quran_android/releases)
 
 This is a simple (Madani based) Quran app for Android.
 

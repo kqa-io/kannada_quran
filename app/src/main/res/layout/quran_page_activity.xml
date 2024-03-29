@@ -35,9 +35,12 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        >
+      <!-- KQA
+        Removed from androidx.appcompat.widget.Toolbar
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-        >
+       -->
       <com.quran.labs.androidquran.view.QuranSpinner
           android:id="@+id/spinner"
           android:layout_width="match_parent"

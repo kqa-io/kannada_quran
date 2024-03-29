@@ -111,7 +111,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
     mTitleOffset = (int) (TITLE_OFFSET_DIPS * density);
     mTabPadding = (int) (TAB_VIEW_PADDING_DIPS * density);
 
-    mSelectedTabColor = ContextCompat.getColor(context, R.color.color_control_activated);
+    mSelectedTabColor = ContextCompat.getColor(context, R.color.color_control_normal);
     mUnselectedTabColor = ContextCompat.getColor(context, R.color.color_control_normal);
 
     mTabStrip = new SlidingTabStrip(context);

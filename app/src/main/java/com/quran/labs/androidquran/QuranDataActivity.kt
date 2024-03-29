@@ -59,7 +59,7 @@ import javax.inject.Inject
  * and [QuranDownloadService] is (mostly) used to perform the actual downloading of
  * any Quran data.
  */
-class QuranDataActivity : Activity(), SimpleDownloadListener, OnRequestPermissionsResultCallback {
+open class QuranDataActivity : Activity(), SimpleDownloadListener, OnRequestPermissionsResultCallback {
 
   @Inject
   lateinit var quranFileUtils: QuranFileUtils

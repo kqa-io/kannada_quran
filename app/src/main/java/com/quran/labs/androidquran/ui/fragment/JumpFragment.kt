@@ -53,7 +53,7 @@ class JumpFragment : DialogFragment() {
     @SuppressLint("InflateParams")
     val layout = inflater.inflate(R.layout.jump_dialog, null)
 
-    val builder = Builder(activity)
+    val builder = Builder(activity,R.style.GotoDialog)
     builder.setTitle(activity.getString(R.string.menu_jump))
 
     // Sura chooser
