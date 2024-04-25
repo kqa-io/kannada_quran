@@ -19,11 +19,11 @@
     <item name="android:textColor">@color/header_text_color</item>
     <item name="android:colorBackground">@color/page_background</item>
     <!-- Customize status bar  color -->
-    <item name="android:statusBarColor">@color/toolbar_background</item>
-    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:statusBarColor">@color/page_background</item>
+    <item name="android:windowLightStatusBar">true</item>
     <!-- Customize navigation bar color -->
-    <item name="android:navigationBarColor">@color/toolbar_background</item>
-    <item name="android:windowLightNavigationBar">false</item>
+    <item name="android:navigationBarColor">@color/page_background</item>
+    <item name="android:windowLightNavigationBar">true</item>
 <!--custom end-->
   </style>
 

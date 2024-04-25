@@ -38,8 +38,11 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.Disposable
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
+import kotlinx.coroutines.cancelChildren
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import timber.log.Timber
@@ -730,10 +733,20 @@ open class QuranDataActivity : Activity(), SimpleDownloadListener, OnRequestPerm
   private fun runListView() {
     val i = Intent(this, QuranActivity::class.java)
     i.putExtra(
-        QuranActivity.EXTRA_SHOW_TRANSLATION_UPGRADE, quranSettings.haveUpdatedTranslations()
+            QuranActivity.EXTRA_SHOW_TRANSLATION_UPGRADE, quranSettings.haveUpdatedTranslations()
     )
-    startActivity(i)
-    finish()
+    GlobalScope.launch {
+      delay(3000) // 3 seconds delay
+      startActivity(i)
+      finish()
+    }
+
+  }
+
+  override fun onDestroy() {
+    super.onDestroy()
+    // Cancel the coroutine when the activity is destroyed to avoid memory leaks
+    GlobalScope.coroutineContext.cancelChildren()
   }
 
   companion object {

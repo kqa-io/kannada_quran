@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="accent_color">#224922</color>
-  <color name="accent_color_dark">#052205</color>
+  <color name="accent_color">#0F5132</color>
+  <color name="accent_color_dark">#072919</color>
   <color name="color_control_activated">@color/indicator_color</color>
   <color name="color_control_normal">#FFFFFF</color>
-  <color name="page_background">#ebe4ca</color>
+  <color name="page_background">#f2eddd</color>
   <color name="header_background">@color/page_background</color>
   <color name="header_text_color">@color/accent_color_dark</color>
   <color name="title_color">@color/accent_color_dark</color>
@@ -50,8 +50,8 @@
   <color name="toast_text_color_night">#ffffffff</color>
 
 
-  <color name="sura_background">#EADFBA</color>
-  <color name="toolbar_background">#0B4E15</color>
+  <color name="sura_background">#ebe4ca</color>
+  <color name="toolbar_background">@color/accent_color</color>
 
 
 

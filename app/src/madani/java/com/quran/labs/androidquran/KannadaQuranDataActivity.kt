@@ -11,7 +11,7 @@ class KannadaQuranDataActivity : QuranDataActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       /* setContentView(R.layout.splash_screen)
+        setContentView(R.layout.splash_screen)
 
         mSplashView = findViewById<View>(R.id.splashview) as QuranMaxImageView
         mSplashView.setLayerType(View.LAYER_TYPE_HARDWARE, null)
@@ -20,6 +20,6 @@ class KannadaQuranDataActivity : QuranDataActivity() {
             mSplashView.setImageResource(R.drawable.splash)
         } catch (error: OutOfMemoryError) {
             mSplashView.setBackgroundColor(Color.BLACK)
-        }*/
+        }
     }
 }
