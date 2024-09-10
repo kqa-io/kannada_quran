@@ -37,7 +37,7 @@
   <!-- about -->
   <string name="about_description">
     ಪವಿತ್ರ ಕುರ್ ಆನ್,ಇದು ಆಂಡ್ರಾಯ್ಡ್ ಸ್ಮಾರ್ಟ್ ಫೋನ್ ಗಳಿಗಾಗಿರುವ ಉಚಿತ ಕನ್ನಡ ಕುರ್ ಆನ್ ಆಪ್ಲಿಕೇಷನ್ ಆಗಿದೆ. &lt;br/>&lt;br/> ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಓಪನ್ ಸೋರ್ಸ್ ಆಂಡ್ರಾಯ್ಡ್ ಪ್ರಾಜೆಕ್ಟ್    &lt;a href="https://quran.com/"> QURAN.COM &lt;/a> ನಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ.ಅಲ್ಲಾಹು ಅವರಿಗೆ  ಶ್ರೇಷ್ಟವಾದದ್ದನ್ನು ದಯಪಾಲಿಸಲಿ. &lt;br/>&lt;br/>
-    ಕನ್ನಡ ಅರ್ಥಾನುವಾದವನ್ನು ಮುಹಮ್ಮದ್ ಹಂಝಾ ಪುತ್ತೂರು ರವರು ಭಾಷಾಂತರಿಸಿದ, ಉಮರ್ ಇಬ್ನ್ ಅಹ್ಮದ್ ಮದನಿ , ಅಹ್ಮದ್ ಎಸ್ ಎಮ್ ಮತ್ತು ಅಬೂಬಕರ್ ನಝೀರ್ ಸಲಫಿಯವರು ಪರಿಶೀಲಿಸಿದ  &lt;b>ಆದರಣೀಯ ಖುರ್ ಆನ್ ಹಾಗೂ ಅದರ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> &lt;i>ಪ್ರಕಾಶಕರು :ಅಲ್  ಮಲಿಕ್  ಫಹದ್ ಪವಿತ್ರ  ಖುರ್ ಆನ್  ಪ್ರಿಂಟಿಂಗ್ ಕಾಂಪ್ಲೆಕ್ಸ್ &lt;i/> &lt;/b> &lt;br/>&lt;br/>  &lt;b> ಪವಿತ್ರ ಕುರ್ ಆನ್, ಸಂಪೂರ್ಣ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> ಪ್ರಕಾಶಕರು :ಸಲಫಿ ಪಬ್ಲಿಷಿಂಗ್ ಹೌಸ್ ಮಂಗಳೂರು&lt;/b> &lt;br/> ನಿಂದ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.&lt;br/>
+    ಕನ್ನಡ ಅರ್ಥಾನುವಾದವನ್ನು ಮುಹಮ್ಮದ್ ಹಂಝಾ ಪುತ್ತೂರು ರವರು ಭಾಷಾಂತರಿಸಿದ, ಉಮರ್ ಇಬ್ನ್ ಅಹ್ಮದ್ ಮದನಿ , ಅಹ್ಮದ್ ಎಸ್ ಎಮ್ ಮತ್ತು ಅಬೂಬಕರ್ ನಝೀರ್ ಸಲಫಿಯವರು ಪರಿಶೀಲಿಸಿದ &lt;br/>  &lt;b>ಆದರಣೀಯ ಖುರ್ ಆನ್ ಹಾಗೂ ಅದರ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> &lt;i>ಪ್ರಕಾಶಕರು :ಅಲ್  ಮಲಿಕ್  ಫಹದ್ ಪವಿತ್ರ  ಖುರ್ ಆನ್  ಪ್ರಿಂಟಿಂಗ್ ಕಾಂಪ್ಲೆಕ್ಸ್ , ಮದೀನಾ, ಸೌದಿ ಅರೇಬಿಯಾ  &lt;i/> &lt;/b> &lt;br/>&lt;br/>  &lt;b> ಪವಿತ್ರ ಕುರ್ ಆನ್, ಸಂಪೂರ್ಣ ಕನ್ನಡ ಅರ್ಥಾನುವಾದ &lt;br/> ಪ್ರಕಾಶಕರು : ಮನ್ ಹಜ್  ಅಲ್-ಅಂಬಿಯ , ಮಂಗಳೂರು&lt;/b> &lt;br/> ನಿಂದ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ.&lt;br/>
   </string>
 
   <string name="about_data_sources">ಡೇಟಾ ಮೂಲಗಳು</string>
@@ -391,9 +391,9 @@
   <!--New keys added start-->
 
   <string name="about_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
-  <string name="about_scalosphere" translatable="false">&#169;Scalosphere Computing LLP </string>
-  <string name="about_scalosphere_email" translatable="false">apps@scalosphere.com</string>
-  <string name="about_scalosphere_email_url" translatable="false">mailto:apps@scalosphere.com</string>
+  <string name="about_scalosphere" translatable="false">&#169; Team KQA</string>
+  <string name="about_scalosphere_email" translatable="false">apps.kannada.quran@gmail.com</string>
+  <string name="about_scalosphere_email_url" translatable="false">mailto:apps.kannada.quran@gmail.com</string>
 
   <!--New keys added end-->
 
