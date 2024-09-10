@@ -69,8 +69,64 @@ class MadaniPageProvider : PageProvider {
         "2",
         false,
         null
-      )
+      ),Qari(
+              3,
+            audioR.string.qari_sudais_gapless,
+            "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/",
+            "sudais_murattal",
+            false,
+            "sudais_murattal"
+    ),
+    Qari(
+            4,
+            audioR.string.qari_shuraym_gapless,
+            "https://download.quranicaudio.com/quran/sa3ood_al-shuraym/",
+            "shuraym",
+            false,
+            "shuraym"
+    ),
+    Qari(
+            5,
+            audioR.string.qari_muaiqly_haramain_gapless,
+            "https://download.quranicaudio.com/quran/maher_256/",
+            "maher_al_muaiqly",
+            false,
+            "maher_al_muaiqly"),
+    Qari(
+            6,
+            audioR.string.qari_saad_al_ghamidi_gapless,
+            "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/",
+            "sa3d_alghamidi",
+            false,
+            "sa3d_alghamidi"),
+
+    Qari(
+            7,
+            audioR.string.qari_yasser_dussary_gapless,
+            "https://download.quranicaudio.com/quran/yasser_ad-dussary/",
+            "yasser_dussary",
+            false,
+            "yasser_dussary"),
+
+    Qari(
+            8,
+            audioR.string.qari_afasy_gapless,
+            "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/",
+            "mishari_alafasy",
+            false,
+            "mishari_alafasy")/*,
+
+    Qari(
+
+            8,
+            audioR.string.qari_afasy_gapless,
+            "https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/",
+            "mishari_alafasy",
+            false,
+            "mishari_alafasy")*/
     )
+    
+
   }
 
   companion object {

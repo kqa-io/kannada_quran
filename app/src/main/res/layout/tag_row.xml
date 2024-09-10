@@ -17,7 +17,7 @@
       android:id="@+id/tag_add_image"
       android:layout_width="48dp"
       android:layout_height="48dp"
-      android:src="@drawable/ic_new"
+      android:src="@drawable/baseline_add_green_24"
       android:scaleType="center"
       android:visibility="gone"
       android:contentDescription="@null"
@@ -27,7 +27,7 @@
       android:layout_width="0dp"
       android:layout_height="48dp"
       android:layout_weight="1"
-      android:textColor="#F3F4E6"
+      android:textColor="@color/accent_color_dark"
       android:gravity="center_vertical"
       />
 </LinearLayout>

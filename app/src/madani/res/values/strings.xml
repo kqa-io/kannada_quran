@@ -63,6 +63,7 @@
   <string name="about_tanzil_summary">Translations for a few languages</string>
   <string name="about_tanzil_url" translatable="false">http://tanzil.net</string>
   <string name="about_noorhidayat" translatable="false">Noorhidayat</string>
+  
   <string name="about_noorhidayat_summary">Noorehira font and Mufti Taqi Translation</string>
   <string name="about_noorhidayat_url" translatable="false">http://www.noorehidayat.org</string>
   <string name="about_open_source">Open Source Projects</string>
@@ -241,7 +242,7 @@
   <string name="see_tafseer_of_verse">ಈ ಸೂಕ್ತಿಯ ತಫ್ಸೀರ್ ಅನ್ನು ಸೂಕ್ತಿ %d ರ ತಫ್ಸೀರ್‌ನೊಂದಿಗೆ ಸೇರಿಸಲಾಗಿದೆ(ವಿಸ್ತರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ).</string>
 
   <!-- translation updates -->
-  <string name="update_available">ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ</string>
+  <string name="update_available">ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ . ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭಿಸಲು ಇಲ್ಲಿ ಒತ್ತಿ </string>
   <string name="translation_updates_available">ನಿಮ್ಮ ಕೆಲವು ಅನುವಾದಗಳಿಗೆ ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ. ನೀವು ಈಗ ಭಾಷಾಂತರ ಪರದೆಯನ್ನು ಭೇಟಿ ಮಾಡಲು ಬಯಸುವಿರಾ ?</string>
   <string name="translation_dialog_yes">ಹೌದು</string>
   <string name="translation_dialog_later">ನಂತರ</string>
@@ -303,7 +304,7 @@
   <string name="get_translations">ಅನುವಾದಗಳನ್ನು ಪಡೆಯಿರಿ</string>
 
   <!-- help -->
-  <string name="email_us">ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳನ್ನು  apps@scalosphere.com ಗೆ ಇಮೇಲ್ ಮಾಡಬಹುದು.ನಾವು ಸಾಕಷ್ಟು ಇಮೇಲ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ, ಹಾಗಾಗಿ ಅವೆಲ್ಲಕ್ಕೂ ಪ್ರತ್ಯುತ್ತರ ನೀಡಲು ನಮಗೆ ಸಾಧ್ಯವಾಗದೇ ಇರಬಹುದು.</string>
+  <string name="email_us">ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳನ್ನು  apps.kannada.quran@gmail.com ಗೆ ಇಮೇಲ್ ಮಾಡಬಹುದು.ನಾವು ಸಾಕಷ್ಟು ಇಮೇಲ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೇವೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ, ಹಾಗಾಗಿ ಅವೆಲ್ಲಕ್ಕೂ ಪ್ರತ್ಯುತ್ತರ ನೀಡಲು ನಮಗೆ ಸಾಧ್ಯವಾಗದೇ ಇರಬಹುದು.</string>
 
   <!-- sura metainfo -->
   <string name="makki">ಮಕ್ಕಾದಲ್ಲಿ</string>
@@ -439,4 +440,6 @@
    <string name="download_sura_progress">ಅಧ್ಯಾಯ %3$d ರ  %1$s / %2$s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
    <string name="download_sura_ayah_progress" tools:ignore="PluralsCandidate">ಅಧ್ಯಾಯ %1$d ಸೂಕ್ತಿ %2$d ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
    <!--Download manager module end-->
+
+  <string name="download_text" translatable="false">ಪವಿತ್ರ ಕುರ್ ಆನ್ ಡೌನ್‌ಲೋಡ್‌ ಲಿಂಕ್ :</string>
 </resources>

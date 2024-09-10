@@ -11,12 +11,14 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.annotation.StyleRes
 import androidx.core.content.ContextCompat
+import androidx.core.widget.TextViewCompat
 import com.quran.labs.androidquran.R
 import com.quran.labs.androidquran.common.QuranAyahInfo
 import com.quran.labs.androidquran.common.TranslationMetadata
@@ -108,14 +110,15 @@ class InlineTranslationView @JvmOverloads constructor(
     val suraNumber = ayah.sura
     val ayahNumber = ayah.ayah
     val ayahHeader = TextView(context)
-    ayahHeader.setTextColor(Color.WHITE)
+    ayahHeader.setTextColor(ContextCompat.getColor(context, R.color.accent_color_dark))
     ayahHeader.textSize = fontSize.toFloat()
     ayahHeader.setTypeface(null, Typeface.BOLD)
     ayahHeader.text = context.resources.getString(R.string.sura_ayah, suraNumber, ayahNumber)
     linearLayout.addView(ayahHeader, params)
     val ayahView = TextView(context)
-    ayahView.setTextAppearance(context, textStyle)
-    ayahView.setTextColor(Color.WHITE)
+    //ayahView.setTextAppearance(context, textStyle)
+    TextViewCompat.setTextAppearance(ayahView, textStyle)
+   // ayahView.setTextColor(Color.WHITE)
     ayahView.textSize = fontSize.toFloat()
 
     // translation

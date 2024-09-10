@@ -6,6 +6,20 @@
     <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
     <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
     <item name="android:forceDarkAllowed">false</item>
+
+    <!--custom start-->
+    <item name="android:textColor">@color/header_text_color</item>
+    <item name="android:textColorPrimary">#ffff</item>
+    <item name="colorPrimary" >@color/toolbar_background</item>
+    <item name="android:colorBackground">@color/page_background</item>
+    <!-- Customize status bar  color -->
+    <item name="android:statusBarColor">@color/page_background</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <!-- Customize navigation bar color -->
+    <item name="android:navigationBarColor">@color/page_background</item>
+    <item name="android:windowLightNavigationBar">true</item>
+    <item name="android:actionBarItemBackground">@color/page_background</item>
+    <!--custom end-->
   </style>
 
   <style name="QuranToolBar" parent="Theme.AppCompat.Light.NoActionBar">
@@ -32,11 +46,28 @@
   </style>
 
 <!--custom theme start-->
-  <style name="GotoDialog" parent="Theme.AppCompat.Dialog">
+  <style name="GotoDialog" parent="Theme.AppCompat.Light.Dialog">
     <item name="android:background">@color/header_background</item>
     <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
     <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
     <item name="android:textColor">@color/header_text_color</item>
+    <item name="android:forceDarkAllowed">false</item>
+  </style>
+
+  <style name="QuranToolBarWithActionBar" parent="Theme.AppCompat.Light">
+    <item name="colorAccent">@color/accent_color</item>
+  </style>
+
+  <style name="QuranToolBarSplashScreen" parent="QuranToolBar">
+    <item name="android:statusBarColor">#FAFAF5</item>
+    <item name="android:navigationBarColor">#F5F4F5</item>
+  </style>
+
+  <style name="QuranToolBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+  </style>
+
+  <style name="QuranToolBarOverlayPopUp" parent="ThemeOverlay.AppCompat.Light">
+    <item name="android:colorBackground">@color/page_background</item>
   </style>
 
   <!--custom theme end-->

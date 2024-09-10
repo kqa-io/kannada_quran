@@ -59,13 +59,13 @@ class ShareUtil @Inject internal constructor(private val quranDisplayData: Quran
   ): String {
     return buildString {
       ayahInfo.arabicText?.let {
-        append("{ ")
+        //append("{ ")
         append(ArabicDatabaseUtils.getAyahWithoutBasmallah(ayahInfo.sura, ayahInfo.ayah, ayahInfo.arabicText.trim()))
-        append(" }")
-        append("\n")
-        append("[")
+        //append(" }")
+        append("\n\n")
+        //append("[")
         append(quranDisplayData.getSuraAyahString(context, ayahInfo.sura, ayahInfo.ayah, R.string.sura_ayah_sharing_str))
-        append("]")
+       // append("]")
       }
 
       ayahInfo.texts.forEachIndexed { i, translation ->
@@ -93,6 +93,8 @@ class ShareUtil @Inject internal constructor(private val quranDisplayData: Quran
         append("-")
         append(quranDisplayData.getSuraAyahString(context, ayahInfo.sura, ayahInfo.ayah, R.string.sura_ayah_notification_str))
       }
+      append("\n\n"+context.getString(R.string.download_text))
+      append("\nhttps://bit.ly/KannadaQuran")
     }
   }
 
@@ -100,10 +102,14 @@ class ShareUtil @Inject internal constructor(private val quranDisplayData: Quran
     val size = verses.size
     val wantInlineAyahNumbers = size > 1
     val isArabicNames = QuranSettings.getInstance(activity).isArabicNames
-    val locale = if (isArabicNames) Locale("ar") else Locale.getDefault()
+    var locale = if (isArabicNames) Locale("ar") else Locale.getDefault()
+
+    // Display arabic number
+    locale = Locale("ar")
+
     val numberFormat = NumberFormat.getNumberInstance(locale)
     return buildString {
-      append("{ ")
+      append("\n")
       for (i in 0 until size) {
         if (i > 0) {
           append(" ")
@@ -117,10 +123,7 @@ class ShareUtil @Inject internal constructor(private val quranDisplayData: Quran
         }
       }
 
-      // append } and a new line after last ayah
-      append(" }\n")
-      // append [ before sura label
-      append("[")
+      append("\n\n")
       val (sura, ayah) = verses[0]
       append(quranDisplayData.getSuraName(activity, sura, true))
       append(": ")
@@ -137,7 +140,8 @@ class ShareUtil @Inject internal constructor(private val quranDisplayData: Quran
         append(numberFormat.format(ayah1))
       }
       // close sura label and append two new lines
-      append("]")
+      append("\n\n"+activity.getString(R.string.download_text))
+      append("\nhttps://bit.ly/KannadaQuran")
     }
   }
 }

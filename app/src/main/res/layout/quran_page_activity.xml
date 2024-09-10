@@ -35,11 +35,15 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:theme="@style/QuranToolBarOverlay"
+        app:popupTheme="@style/QuranToolBarOverlayPopUp"
         >
       <!-- KQA
         Removed from androidx.appcompat.widget.Toolbar
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+        This can be added to QuranSpinner . android:background="@drawable/spinner_background"
        -->
       <com.quran.labs.androidquran.view.QuranSpinner
           android:id="@+id/spinner"

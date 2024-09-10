@@ -12,7 +12,7 @@
     >
   <ImageView
       android:id="@+id/translation_icon"
-      android:src="@drawable/ic_translation"
+      android:src="@drawable/baseline_language_24"
       android:layout_width="48dp"
       android:layout_height="48dp"
       android:scaleType="center"
@@ -30,7 +30,7 @@
         android:id="@+id/translation_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#F3F4E6"
+        android:textColor="@color/accent_color_dark"
         android:textSize="16sp"
         />
     <TextView

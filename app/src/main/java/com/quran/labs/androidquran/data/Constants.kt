@@ -15,8 +15,8 @@ object Constants {
   // 10 days in ms
   const val TRANSLATION_REFRESH_TIME = 60 * 60 * 24 * 10 * 1000
 
-  // 1 hour in ms
-  const val MIN_TRANSLATION_REFRESH_TIME = 60 * 60 * 1000
+  // 1 hour in ms TODO
+  const val MIN_TRANSLATION_REFRESH_TIME = 1
 
   // Pages
   const val PAGES_FIRST = QuranConstants.PAGES_FIRST

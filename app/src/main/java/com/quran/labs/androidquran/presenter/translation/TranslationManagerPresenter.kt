@@ -52,7 +52,8 @@ open class TranslationManagerPresenter @Inject internal constructor(
   }
 
   fun checkForUpdates() {
-    Timber.d("checking whether we should update translations..")
+    Timber.d("checking whether we should update translations..System "+System.currentTimeMillis()+"----lastUpdatedTranslationDate :  "+quranSettings.lastUpdatedTranslationDate+"---final : "+(System.currentTimeMillis() -
+            quranSettings.lastUpdatedTranslationDate))
     val isCacheStale = System.currentTimeMillis() -
         quranSettings.lastUpdatedTranslationDate > Constants.MIN_TRANSLATION_REFRESH_TIME
     if (isCacheStale) {
@@ -124,7 +125,7 @@ open class TranslationManagerPresenter @Inject internal constructor(
 
   internal fun remoteTranslationList(): Flow<TranslationList> {
     return flow {
-      val url = host + WEB_SERVICE_ENDPOINT
+      val url = "https://raw.githubusercontent.com/kqa-io/kannada_quran_api/data/api/translation.json"
       val request: Request = Request.Builder()
         .url(url)
         .build()

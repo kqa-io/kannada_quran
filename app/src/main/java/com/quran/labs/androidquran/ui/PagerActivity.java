@@ -1206,7 +1206,7 @@ public class PagerActivity extends AppCompatActivity implements
   }
 
   private void updateActionBarTitle(int page) {
-    String sura = quranDisplayData.getSuraNameFromPage(this, page, true);
+    String sura = quranDisplayData.getSuraNameFromPage(this, page, false);
     ActionBar actionBar = getSupportActionBar();
     if (actionBar != null) {
       translationsSpinner.setVisibility(View.GONE);
@@ -1250,10 +1250,12 @@ public class PagerActivity extends AppCompatActivity implements
             SpinnerHolder holder = (SpinnerHolder) convertView.getTag();
             int page = getCurrentPage();
 
-            String sura = quranDisplayData.getSuraNameFromPage(PagerActivity.this, page, true);
+            String sura = quranDisplayData.getSuraNameFromPage(PagerActivity.this, page, false);
             holder.title.setText(sura);
+            holder.title.setTextColor(getResources().getColor(R.color.color_control_normal));
             String desc = quranDisplayData.getPageSubtitle(PagerActivity.this, page);
             holder.subtitle.setText(desc);
+            holder.subtitle.setTextColor(getResources().getColor(R.color.action_bar_subtitle));
             holder.subtitle.setVisibility(View.VISIBLE);
           }
           return convertView;
@@ -1799,6 +1801,9 @@ public class PagerActivity extends AppCompatActivity implements
 
       return;
     }
+
+    System.out.println("text is lastSelectedTranslationAyah"+lastSelectedTranslationAyah);
+
 
     compositeDisposable.add(
         arabicDatabaseUtils

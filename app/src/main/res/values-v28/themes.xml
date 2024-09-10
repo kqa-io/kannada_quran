@@ -5,5 +5,8 @@
       <item name="android:windowTranslucentStatus">true</item>
       <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
       <item name="android:navigationBarColor">@color/transparent_actionbar_color</item>
+      <!-- Light status bar icons KQA-->
+      <item name="android:windowLightNavigationBar">false</item>
+      <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

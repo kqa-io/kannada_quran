@@ -3,5 +3,6 @@
   <domain-config cleartextTrafficPermitted="true">
     <domain includeSubdomains="true">quran.com</domain>
     <domain includeSubdomains="true">quranicaudio.com</domain>
+    <domain includeSubdomains="true">raw.githubusercontent.com</domain>
   </domain-config>
 </network-security-config>

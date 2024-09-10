@@ -2,6 +2,10 @@ package com.quran.labs.androidquran.ui.fragment
 
 import android.content.Context
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import com.quran.data.core.QuranInfo
 import com.quran.data.model.selection.AyahSelection
 import com.quran.data.model.selection.startSuraAyah
@@ -67,6 +71,14 @@ class TagBookmarkFragment : TagBookmarkDialog() {
     scope.cancel()
     super.onDestroy()
   }
+
+ /* KQA fragment background color */
+  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    val view = super.onCreateView(inflater, container, savedInstanceState)
+    view?.setBackgroundColor(ContextCompat.getColor(requireContext(), com.quran.labs.androidquran.R.color.page_background))
+    return view
+  }
+  /* KQA fragment background color */
 
   override fun shouldInject() = false
 }

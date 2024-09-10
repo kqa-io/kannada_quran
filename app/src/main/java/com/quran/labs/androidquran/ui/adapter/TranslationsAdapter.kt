@@ -7,6 +7,7 @@ import android.view.View.OnLongClickListener
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
 import com.quran.labs.androidquran.R
@@ -64,6 +65,8 @@ class TranslationsAdapter(private val downloadedMenuActionListener: DownloadedMe
               leftImage?.setImageResource(com.quran.mobile.feature.downloadmanager.R.drawable.ic_download)
               leftImage?.visibility = View.VISIBLE
               translationInfo?.setText(R.string.update_available)
+              translationInfo?.setTextColor(ContextCompat.getColor(itemView.context, R.color.indicator_color))
+
             } else {
               leftImage?.visibility = View.GONE
             }

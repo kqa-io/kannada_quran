@@ -68,7 +68,7 @@ class AddTagDialog : DialogFragment() {
     @SuppressLint("InflateParams")
     val layout = inflater.inflate(R.layout.tag_dialog, null)
 
-    val builder = AlertDialog.Builder(activity)
+    val builder = AlertDialog.Builder(activity,R.style.GotoDialog)
     builder.setTitle(getString(R.string.tag_dlg_title))
 
     val text = layout.findViewById<TextInputEditText>(R.id.tag_name)

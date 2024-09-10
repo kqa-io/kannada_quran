@@ -251,14 +251,14 @@ open class QuranActivity : AppCompatActivity(),
       R.id.jump -> {
         gotoPageDialog()
       }
-      R.id.other_apps -> {
+     /* R.id.other_apps -> {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("market://search?q=pub:quran.com")
         if (packageManager.resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY) == null) {
           intent.data = Uri.parse("https://play.google.com/store/search?q=pub:quran.com")
         }
         startActivity(intent)
-      }
+      }*/
       else -> {
         val handled = extraScreens.firstOrNull { it.id == itemId }?.onClick(this) ?: false
         return handled || super.onOptionsItemSelected(item)

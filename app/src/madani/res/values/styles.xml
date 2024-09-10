@@ -17,7 +17,7 @@
       parent="android:TextAppearance.StatusBar.EventContent.Title" />
 
   <style name="TranslationText">
-    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textColor">@color/accent_color_dark</item>
     <item name="android:textSize">14sp</item>
   </style>
 

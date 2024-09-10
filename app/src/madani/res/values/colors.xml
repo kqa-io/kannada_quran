@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="accent_color">#0F5132</color>
-  <color name="accent_color_dark">#072919</color>
+  <color name="accent_color">#0D423A</color>
+  <color name="accent_color_dark">#022B24</color>
+  <!--0F5132_072919-->
   <color name="color_control_activated">@color/indicator_color</color>
   <color name="color_control_normal">#FFFFFF</color>
   <color name="page_background">#f7f3ea</color>
@@ -10,8 +11,9 @@
   <color name="title_color">@color/accent_color_dark</color>
   <color name="sura_number_color">@color/accent_color_dark</color>
   <color name="sura_details_color">@color/accent_color</color>
-  <color name="transparent_actionbar_color">#AA000000</color>
-  <color name="panel_background_color">#ff424242</color>
+  <color name="transparent_actionbar_color">@color/accent_color_dark</color>
+  <!--#156B47-->
+  <color name="panel_background_color">@color/accent_color</color>
   <color name="translation_hdr_color">#ff777777</color>
   <color name="translation_sura_header">#fff1ecd8</color>
   <color name="translation_sura_header_night">#ff424242</color>
@@ -19,7 +21,7 @@
   <color name="translation_verse_background_color">#fff2f2f2</color>
   <color name="translation_verse_background_night_color">#ff333333</color>
   <color name="translation_translator_color">#ff22a5ad</color>
-  <color name="translation_text_color">#ff444444</color>
+  <color name="translation_text_color">@color/accent_color_dark</color>
   <color name="translation_footnote_color">#ff999999</color>
   <color name="translation_divider_color">#ffe8e8e8</color>
 
@@ -52,7 +54,7 @@
 
   <color name="sura_background">#f2eddd</color>
   <color name="toolbar_background">@color/accent_color</color>
-
+  <color name="action_bar_subtitle">#B1BDBB</color>
 
 
 </resources>
