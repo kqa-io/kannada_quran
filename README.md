@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kqa-io/kannada_quran/edit/main/app/src/madani/res/drawable-xxxhdpi/icon.png" alt='Kannada Quran'/>
+<img src="https://raw.githubusercontent.com/kqa-io/kannada_quran/main/app/src/madani/res/drawable-xxxhdpi/icon.png" alt='Kannada Quran'/>
 
 # Quran for Android
 
