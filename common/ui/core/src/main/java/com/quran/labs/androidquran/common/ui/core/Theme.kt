@@ -74,7 +74,7 @@ private val forceLtr = listOf("huawei", "lenovo", "tecno")
 
 @Composable
 fun QuranTheme(
-  useDarkTheme: Boolean = isSystemInDarkTheme(),
+  useDarkTheme: Boolean = false,
   content: @Composable () -> Unit
 ) {
   val colors = if (!useDarkTheme) {

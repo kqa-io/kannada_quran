@@ -7,8 +7,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import com.quran.labs.androidquran.common.ui.core.modifier.autoMirror
 
@@ -35,6 +37,12 @@ fun DownloadManagerToolbar(
         )
       }
     },
-    actions = actions
+          actions = actions,
+          colors = TopAppBarDefaults.topAppBarColors(
+                  containerColor = Color(0xFF0D423A),
+                  titleContentColor = Color(0xFFF7F3EA),
+                  navigationIconContentColor = Color(0xFFF7F3EA)
+      )
+
   )
 }
