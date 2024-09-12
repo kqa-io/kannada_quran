@@ -297,7 +297,7 @@
 
   <!-- translation database stuff -->
   <string name="remove_dlg_title">ಅನುವಾದವನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?</string>
-  <string name="remove_dlg_msg">ನೀವು ಖಚಿತವಾಗಿ %1$s ಅನ್ನು ತೆಗೆದುಹಾಕಲು  ಬಯಸುವಿರಾ?</string>
+  <string name="remove_dlg_msg">ನೀವು ಖಚಿತವಾಗಿ &lt;b> %1$s &lt;/b> ಅನುವಾದವನ್ನು ತೆಗೆದುಹಾಕಲು  ಬಯಸುವಿರಾ?</string>
   <string name="error_getting_translation_list">ಅನುವಾದಗಳ ಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="search_data">ಹುಡುಕಿ...</string>
   <string name="need_translation">ನೀವು ಇನ್ನೂ ಯಾವುದೇ ಅನುವಾದಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ.</string>
@@ -391,7 +391,7 @@
   <!--New keys added start-->
 
   <string name="about_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
-  <string name="about_scalosphere" translatable="false">&#169; Team KQA</string>
+  <string name="about_scalosphere" translatable="false">&#169;Kannada Quran Application</string>
   <string name="about_scalosphere_email" translatable="false">apps.kannada.quran@gmail.com</string>
   <string name="about_scalosphere_email_url" translatable="false">mailto:apps.kannada.quran@gmail.com</string>
 

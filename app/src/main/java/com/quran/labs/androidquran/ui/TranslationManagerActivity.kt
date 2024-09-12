@@ -9,6 +9,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.ActionMode
+import androidx.core.text.HtmlCompat
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -346,9 +347,9 @@ class TranslationManagerActivity : AppCompatActivity(), SimpleDownloadListener,
   private fun removeItem(translationRowData: TranslationRowData) {
     val selectedItem = translationRowData as TranslationItem
     val msg = String.format(getString(R.string.remove_dlg_msg), selectedItem.name())
-    val builder = AlertDialog.Builder(this)
-    builder.setTitle(R.string.remove_dlg_title)
-      .setMessage(msg)
+    val builder = AlertDialog.Builder(this,R.style.GotoDialog)
+    builder/*.setTitle(R.string.remove_dlg_title)*/
+      .setMessage(HtmlCompat.fromHtml(msg, HtmlCompat.FROM_HTML_MODE_COMPACT))
       .setPositiveButton(
         com.quran.mobile.common.ui.core.R.string.remove_button
       ) { _: DialogInterface?, _: Int ->

@@ -18,7 +18,9 @@
     <!-- Customize navigation bar color -->
     <item name="android:navigationBarColor">@color/page_background</item>
     <item name="android:windowLightNavigationBar">true</item>
-    <item name="android:actionBarItemBackground">@color/page_background</item>
+    <item name="android:textColorHint">@color/inactive</item>
+    <item name="android:textCursorDrawable">@drawable/custom_cursor</item>
+    <!-- <item name="android:actionBarItemBackground">@color/page_background</item>-->
     <!--custom end-->
   </style>
 
@@ -38,6 +40,8 @@
     <!-- Customize navigation bar color -->
     <item name="android:navigationBarColor">@color/page_background</item>
     <item name="android:windowLightNavigationBar">true</item>
+
+    <item name="android:textCursorDrawable">@drawable/custom_cursor</item>
 <!--custom end-->
   </style>
 
@@ -64,6 +68,7 @@
   </style>
 
   <style name="QuranToolBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:colorBackground">@color/page_background</item>
   </style>
 
   <style name="QuranToolBarOverlayPopUp" parent="ThemeOverlay.AppCompat.Light">
