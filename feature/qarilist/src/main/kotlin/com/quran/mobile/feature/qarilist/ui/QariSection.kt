@@ -16,7 +16,7 @@ fun QariSection(@StringRes sectionHeader: Int) {
   Text(
     text = stringResource(sectionHeader),
     style = MaterialTheme.typography.titleMedium,
-    color = MaterialTheme.colorScheme.onSecondaryContainer,
+    color = MaterialTheme.colorScheme.onPrimary,
     modifier = Modifier
       .fillMaxWidth()
       .background(MaterialTheme.colorScheme.secondaryContainer)
